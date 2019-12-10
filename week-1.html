@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>wk 1: Working With Code</title>
+
+  <script src='./code-along/markdown.js'></script>
+
+  <link rel="stylesheet" href="./reveal.js/css/reset.css">
+  <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="./reveal.js/css/theme/simple.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="./reveal.js/lib/css/monokai.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = './reveal.js/stylesheet';
+    link.type = './reveal.js/text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section>
+        welcome stuff
+      </section>
+
+      <section>
+        about git & github
+      </section>
+
+
+      <section>
+        about working on your local computer: file structure, installs, ...
+      </section>
+
+      <section>
+
+        <section>
+          Markdown!
+          <br><br>
+          (scroll down for code-alongs)
+        </section>
+
+        <section>
+          <h2>general example</h2>
+          <div id='first' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <script>
+            codeAlong({
+              type: 'markdown',
+              container: 'first',
+              path: `./examples/starter.md`
+            });
+          </script>
+        </section>
+
+        <section>
+          <h2>text</h2>
+          <div id='text' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <script>
+            codeAlong({
+              type: 'markdown',
+              container: 'text',
+              path: `./examples/text.md`
+            });
+          </script>
+        </section>
+
+        <section>
+          <h2>emphasis</h2>
+          <div id='emphasis' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <script>
+            codeAlong({
+              type: 'markdown',
+              container: 'emphasis',
+              path: `./examples/emphasis.md`
+            });
+          </script>
+        </section>
+
+        <section>
+          <h2>unordered lists</h2>
+          <div id='uls' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <script>
+            codeAlong({
+              type: 'markdown',
+              container: 'uls',
+              path: `./examples/unordered-lists.md`
+            });
+          </script>
+        </section>
+
+        <section>
+          <h2>ordered lists</h2>
+          <div id='ols' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <script>
+            codeAlong({
+              type: 'markdown',
+              container: 'ols',
+              path: `./examples/ordered-lists.md`
+            });
+          </script>
+        </section>
+
+        <section>
+          <h2>code samples</h2>
+          <div id='code-samples' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <script>
+            codeAlong({
+              type: 'markdown',
+              container: 'code-samples',
+              path: `./examples/code-samples.md`
+            });
+          </script>
+        </section>
+
+        <section>
+          <h2>inlines</h2>
+          <div id='inlines' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <script>
+            codeAlong({
+              type: 'markdown',
+              container: 'inlines',
+              path: `./examples/inlines.md`
+            });
+          </script>
+        </section>
+
+      </section>
+
+
+      <section>
+        homework launch: practice pull requests, practice clone/push for portfolio repo, fork hack-my-future repo
+      </section>
+
+
+    </div>
+  </div>
+
+  <script src="./reveal.js/js/reveal.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      keyboard: {
+        67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+        66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+        46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+        8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+        68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+      },
+      dependencies: [
+        // { src: 'plugin/markdown/marked.js' },
+        // { src: 'plugin/markdown/markdown.js' },
+        { src: './reveal.js/plugin/notes/notes.js', async: true },
+        { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
+        // { src: 'plugin/highlight/highlight.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>
