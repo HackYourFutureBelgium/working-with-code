@@ -27,10 +27,23 @@
 </head>
 
 <body>
+  <!-- <base target="_blank" /> -->
+  <!-- <script>
+      var codeAlongs = {};
+    </script> -->
+
+
+  <style>
+    .code-along {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
+
   <div class="reveal">
     <div class="slides">
 
-      <section>
+      <!-- <section>
         welcome stuff
       </section>
 
@@ -41,43 +54,65 @@
 
       <section>
         about working on your local computer: file structure, installs, ...
-      </section>
+      </section> -->
 
       <section>
-
+        <!--
         <section>
           Markdown!
           <br><br>
           (scroll down for code-alongs)
-        </section>
+        </section> -->
 
         <section>
           <h2>general example</h2>
-          <div id='first' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <div id='first' class='code-along'></div>
           <script>
             codeAlong({
               type: 'markdown',
-              container: 'first',
-              path: `./examples/starter.md`
+              path: `./examples/starter.md`,
+              container: document.getElementById('first'),
             });
           </script>
         </section>
+        <!--    <section data-state='general-example'>
+          <h2>general example</h2>
+          <div id='first' class='code-along'></div>
+          <script>
+            codeAlongs['general-example'] = {
+              type: 'markdown',
+              path: `./examples/starter.md`,
+              container: document.getElementById('first'),
+            };
+          </script>
+        </section> -->
 
         <section>
           <h2>text</h2>
-          <div id='text' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <div id='text' class='code-along'></div>
           <script>
             codeAlong({
               type: 'markdown',
-              container: 'text',
+              container: document.getElementById('text'),
               path: `./examples/text.md`
             });
           </script>
         </section>
+        <!-- <section data-state='text'>
+          <h2>text</h2>
+          <div id='text' class='code-along'></div>
+          <script>
+            codeAlongs['text'] = {
+              type: 'markdown',
+              container: document.getElementById('text'),
+              path: `./examples/text.md`
+            };
+          </script>
+        </section> -->
 
         <section>
           <h2>emphasis</h2>
-          <div id='emphasis' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <div id='emphasis' class='code-along'></div>
           <script>
             codeAlong({
               type: 'markdown',
@@ -86,10 +121,21 @@
             });
           </script>
         </section>
+        <!-- <section data-state='emphasis'>
+          <h2>emphasis</h2>
+          <div id='emphasis' class='code-along'></div>
+          <script>
+            codeAlongs['emphasis'] = {
+              type: 'markdown',
+              container: 'emphasis',
+              path: `./examples/emphasis.md`
+            }
+          </script>
+        </section> -->
 
         <section>
           <h2>unordered lists</h2>
-          <div id='uls' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <div id='uls' style="position: relative; width: 100%; height: 100vh;"></div>
           <script>
             codeAlong({
               type: 'markdown',
@@ -101,7 +147,7 @@
 
         <section>
           <h2>ordered lists</h2>
-          <div id='ols' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <div id='ols' class='code-along'></div>
           <script>
             codeAlong({
               type: 'markdown',
@@ -113,7 +159,7 @@
 
         <section>
           <h2>code samples</h2>
-          <div id='code-samples' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <div id='code-samples' class='code-along'></div>
           <script>
             codeAlong({
               type: 'markdown',
@@ -125,7 +171,7 @@
 
         <section>
           <h2>inlines</h2>
-          <div id='inlines' style="position: relative; width: 100%; height: 100vh;overflow:hidden;"></div>
+          <div id='inlines' class='code-along'></div>
           <script>
             codeAlong({
               type: 'markdown',
@@ -164,10 +210,17 @@
         // { src: 'plugin/markdown/marked.js' },
         // { src: 'plugin/markdown/markdown.js' },
         { src: './reveal.js/plugin/notes/notes.js', async: true },
-        { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
+        // { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
         // { src: 'plugin/highlight/highlight.js', async: true }
       ]
     });
+
+    // Object.keys(codeAlongs)
+    //   .forEach(key => {
+    //     Reveal.addEventListener(key, () => {
+    //       codeAlong(codeAlongs[key])
+    //     }, { once: true })
+    //   })
   </script>
 </body>
 
