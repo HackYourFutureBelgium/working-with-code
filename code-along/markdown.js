@@ -12,8 +12,6 @@ async function codeAlong(config) {
       ? document.getElementById(config.container)
       : document.createElement('div');
 
-
-
   const markdown = await fetch(config.path)
     .then(resp => resp.text())
     .then(parsedMd => parsedMd)
@@ -30,11 +28,15 @@ async function codeAlong(config) {
   }
 
   const iframe = document.createElement('iframe');
-  iframe.style = 'height:100%;width:100%;';
+  iframe.style = 'height:100vh;width:100%;overflow:hidden;';
   iframe.setAttribute('scrolling', 'no');
 
   iframe.onload = async () => {
     // const buildCodeAlong = async () => {
+
+    const baseEl = document.createElement('base');
+    baseEl.target = '_blank';
+    iframe.contentWindow.document.head.appendChild(baseEl);
 
     const frameDocument = iframe.contentWindow.document;
     const frameWindow = iframe.contentWindow;
@@ -83,7 +85,8 @@ async function codeAlong(config) {
         const marked = frameWindow.marked;
 
         const editorDiv = document.createElement('div');
-        editorDiv.style = 'height:70vh;width:60vw;';
+        // editorDiv.style = 'height:70vh;width:60vw;';
+        editorDiv.style = 'height:90vh;width:100vw;';
 
         const editor = ace.edit(editorDiv);
 
@@ -96,7 +99,8 @@ async function codeAlong(config) {
         const outputDiv = document.createElement('div');
         outputDiv.id = '\n-- study: markdown rendered as DOM --\n';
         outputDiv.className = 'markdown-body';
-        outputDiv.style = 'height: 69vh; width: 40vw; border:solid; padding-left:3%; padding-right:3%;';
+        // outputDiv.style = 'height: 69vh; width: 40vw; border:solid; padding-left:3%; padding-right:3%;';
+        outputDiv.style = 'height: 90vh; width: 100%; border:solid 2px; padding-left:3%; padding-right:3%;';
         outputDiv.innerHTML = marked(editor.getValue());
 
         editor.on("change", () => {

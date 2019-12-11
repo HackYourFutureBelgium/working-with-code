@@ -1,3 +1,5 @@
+<!-- code samples -->
+
 __HTML__
 
 ```html
@@ -21,3 +23,5 @@ __JavaScript__
 ```js
 const variable = 'hi!';
 ```
+
+> PS.  When you write code samples on GitHub, the code will be colored so it's easier to read.  [Like So](https://github.com/HackYourFuture/fundamentals/blob/master/fundamentals/functions.md)

@@ -1,3 +1,5 @@
+<!-- emphasis -->
+
 __Bold with underscore__
 
 **Bold with asterix**
