@@ -7,11 +7,7 @@ __Your Computer__:
 * Organizing your folders
 
 __Markdown__:
-* links
-* lists
-* images
-* basic formatting
-* headers
+* enough to make pretty readme's
 
 
 __Git & GitHub__:
