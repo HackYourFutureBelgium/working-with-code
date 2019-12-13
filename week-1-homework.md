@@ -1,10 +1,122 @@
 # Working With Code: Week 1 Homework
 
-Things to push to GitHub
-* Create a simple markdown portfolio on `username.github.io`
-* Send a PR to your class repository with a little bio [like so](https://github.com/HackYourFutureBelgium/class-6/tree/master/student-bios)
-* Fork and set up your `hack-my-future` repository
+Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you'll get a chance to:
 
-Things to do on your computer:
-* Set up you HYF directory on your computer (which we'll do in class)
-* Installations: Chrome/FireFox/Chromium, VSC, GitKraken
+* Organize your computer so your work doesn't get lost in random folders
+* Practice the homework submission process
+* Get acquainted with Git, GitHub and GitKraken
+* Send your first pull request to an open source project
+* Practice writing code on VSC with linting, auto-formatting & live preview.
+
+There are 5 assignments, 2 on your computer and 3 on GitHub:
+
+1. [(computer) Software Installations](#software-installations)
+1. [(computer) Start an HYF Directory](#hyf-directory)
+1. [(GitHub) Pull Request to "student-bios"](#student-bios-pull-request)
+1. [(GitHub) Set Up Your hack-my-future Repo](#hack-my-future)
+1. [(GitHub) Push Your Markdown Home Page](#markdown-home-page)
+
+
+To Help you get a hang of the homework submission process and to make sure you get everything done, we've provided a template issue in your class repository.  If you haven't already head over there, create a new issue from the template, and add it to your class' `Working with Code` project board.
+
+---
+
+
+---
+
+## Software Installations
+
+Make sure you have all of these softwares installed on your computer:
+
+* [Chromium](https://download-chromium.appspot.com/), [Firefox](https://www.mozilla.org/en-US/firefox/developer/) or [Brave](https://brave.com/download/): All great browsers with ES6, HTML5 & CSS3 support plus pre-installed, top-knotch developer tools.  Try each one to see what you like best!
+* [Visual Studio Code](https://code.visualstudio.com/download): Like Microsoft Word, but for code ...  and _sooooo_ much better.  After installing VSC, be sure to install these plug-ins:
+    * [Markdown Preview Github Styling Custom](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
+    * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+    * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#overview)
+* [GitKraken](https://www.gitkraken.com/download): A program that will help you master using git.
+* (If you have windows) [Git For Windows](https://gitforwindows.org/): This will allow you to use the same terminal commands & tools as Linux or Mac computers.
+
+> If you have a Windows machine, it's recommended that you set up your computer for dual booting Linux.  Windows will work fine at the beginning of the course, but later on will make things more difficult for you. Get in touch with one of your coaches if you'd like to get this set up already.
+
+[TOP](#working-with-code--week-1-homework)
+
+---
+
+## HYF Directory
+
+Set up a new directory on your computer to host all of the code you write while at HYF.  It should look something like this, but feel free to change it as you find what works for you!
+
+```
+--/ Documents
+  |-/ HYF
+    |-/ hack-my-future
+    |   (see the hack-my-future assignment for more info on this folder)
+    |-/ 00-working-with-code
+    |-/ 01-incremental-developemnt
+    :
+    :
+```
+
+
+[TOP](#working-with-code--week-1-homework)
+
+---
+
+## student-bios Pull Request
+
+
+Send a Pull Request to your class repository with a short bio so your classmates and coaches can get to know you.  You can find more instructions for this in the `/student-bios` directory of your class repo.
+
+
+[TOP](#working-with-code--week-1-homework)
+
+---
+
+## hack-my-future
+
+1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future).
+1. [Pin](https://github.blog/2016-06-16-pin-repositories-to-your-github-profile/) it to your GitHub account
+1. Set up your `learnables` project board, as described in the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future)
+1. Clone the repository into your `HYF` directory
+1. Begin tracking your learning!
+
+
+[TOP](#working-with-code--week-1-homework)
+
+---
+
+## Markdown Home Page
+
+
+Create a home page using markdown (not HTML/CSS!) in the `<username>.github.io` repository on your GitHub account. Later on you can turn this repository into an amazing portfolio web site, but for now stick with the basics :)
+
+#### Writing The Documents
+
+The writing process should look something like this:
+1. Create a new repository on your github account named `<username>.github.io` (with or without a `README.md`)
+1. Clone the repository to your computer using GitKraken
+1. Open the repository in VSC
+1. Open or create the `README.md` file, turn on [Markdown Preview](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
+1. Begin writing.  Play around with tables, lists, links, emphasis, ... and there's not really much more to Markdown!
+
+This make this exercise too difficult! The main goal is to become familiar adding/committing, pushing/pulling, using VSC, and writing clean code.
+
+If you want an extra challenge try adding some extra pages to your site and linking between them.  In the repository this will show up as multiple files above the README, on GitHub Pages this will become a fully navigable web page!
+
+Can you figure out how to make something like a header/navbar using only Markdown?
+
+> Emojis and images won't show up in VSC previews but will show up on GitHub when you push.  If you want to get extra creative by including images or emoji's, you'll need to push your code to GitHub frequently to see how it looks when it's live in the repo.
+
+#### Creating a Live Home Page
+
+[Turn on GitHub Pages](https://www.thinkful.com/learn/a-guide-to-using-github-pages/), that's all you need to do to create a live web page!
+
+After turning on GitHub pages, add this link as your home page on your github user profile (if you don't already have a personal web site).
+
+[TOP](#working-with-code--week-1-homework)
+
+---
+---
+
+### <a href="https://hackyourfuture.be" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/63941625-4c7c3d00-ca6c-11e9-9a76-8d5e3632fe70.jpg" width="100" height="100" alt="Hack Your Future: Belgium"></a>
+
