@@ -8,7 +8,10 @@
 
 * [How To HYF](#how-to-hyf): HYF survival kit
 * [Learning Objectives](#learning-objectives): What you can expect to learn in this module
-* Sunday Class: [Prep Work](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Prep-Work), [Lesson Plan](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Lesson-Plan), [Slide Show](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html)
+* Sunday Class: 
+  * [Prep Work](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Prep-Work)
+  * [Lesson Plan](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Lesson-Plan)
+  * [Slide Show](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html)
 * [Module Homework](./week-1-homework.md): This module's homework assignment
 * [Helpful Links](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Helpful-Links): Study resources to help with this module's homework
 * [Deeper Dives](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Deeper-Dives): Extra fun and challenging projects to go above and beyond
