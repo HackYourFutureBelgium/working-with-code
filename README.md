@@ -6,8 +6,6 @@
   </a>
 </div>
 
-### Index
-
 * [How To HYF](#how-to-hyf): HYF survival kit
 * [Learning Objectives](#learning-objectives): What you can expect to learn in this module
 * Sunday Class: [Prep Work](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Prep-Work), [Lesson Plan](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Lesson-Plan), [Slide Show](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html)
