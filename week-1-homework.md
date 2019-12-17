@@ -114,6 +114,8 @@ Can you figure out how to make something like a header/navbar using only Markdow
 
 After turning on GitHub pages, add this link as your home page on your github user profile (if you don't already have a personal web site).
 
+Looking for a little more flare?  Set [a theme](https://pages.github.com/themes/) for your home page.
+
 [TOP](#working-with-code--week-1-homework)
 
 ---
