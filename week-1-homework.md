@@ -1,12 +1,13 @@
 # Working With Code: Week 1 Homework
 
-Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you'll get a chance to:
+Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you'll start learning to:
 
 * Organize your computer so your work doesn't get lost in random folders
 * Practice the homework submission process
 * Get acquainted with Git, GitHub and GitKraken
 * Send your first pull request to an open source project
 * Practice writing code on VSC with linting, auto-formatting & live preview.
+* Become aware of when you changed what, with a little help from GitLens
 
 There are 5 assignments, 2 on your computer and 3 on GitHub:
 
@@ -33,6 +34,7 @@ Make sure you have all of these softwares installed on your computer:
     * [Markdown Preview Github Styling Custom](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
     * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
     * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#overview)
+    * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [GitKraken](https://www.gitkraken.com/download): A program that will help you master using git.
 * (If you have windows) [Git For Windows](https://gitforwindows.org/): This will allow you to use the same terminal commands & tools as Linux or Mac computers.
 
@@ -87,12 +89,12 @@ Send a Pull Request to your class repository with a short bio so your classmates
 
 ## Markdown Home Page
 
-
 Create a home page using markdown (not HTML/CSS!) in the `<username>.github.io` repository on your GitHub account. Later on you can turn this repository into an amazing portfolio web site, but for now stick with the basics :)
 
 #### Writing The Documents
 
 The writing process should look something like this:
+
 1. Create a new repository on your github account named `<username>.github.io` (with or without a `README.md`)
 1. Clone the repository to your computer using GitKraken
 1. Open the repository in VSC

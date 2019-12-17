@@ -1,3 +1,17 @@
+__Learning Objectives__
+* push, pull, fork, pr, branch with plain markdown files
+* set up github pages
+* work locally using VSC & GitKraken (or another client)
+* learn how to turn in homework and integrate feedback using issues
+* source code vs. interpreted live website (md preview in vsc)
+
+__Tech-Specs__
+* _Visual Studio Code_:
+* _Dev Browsers_: Firefox, Chromium, Brave, Opera, ...
+* _GitKraken_:
+* _GitHub_: Wikis, project boards, issues, pull requests
+* _MarkDown_: preview in vsc
+
 <h1 id='top' align="center">Module 0: Working with Code</h1>
 
 <div align="center">
