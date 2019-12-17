@@ -46,7 +46,7 @@ Make sure you have all of these softwares installed on your computer:
 
 ## HYF Directory
 
-Set up a new directory on your computer to host all of the code you write while at HYF.  It should look something like this, but feel free to change it as you find what works for you!
+Set up a new directory *on your computer* to host all of the code you write while at HYF.  It should look something like this, but feel free to change it as you find what works for you!
 
 ```
 --/ Documents
@@ -65,7 +65,6 @@ Set up a new directory on your computer to host all of the code you write while 
 ---
 
 ## student-bios Pull Request
-
 
 Send a Pull Request to your class repository with a short bio so your classmates and coaches can get to know you.  You can find more instructions for this in the `/student-bios` directory of your class repo.
 

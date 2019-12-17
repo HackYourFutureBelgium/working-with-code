@@ -9,7 +9,7 @@ Unless you do _two_ newlines!
 This makes it possible to write
 markdown that fits nicely in a
 narrow editor, but still
-renders the way you think it would.
+renders to fill the screen.
 
 ---
 

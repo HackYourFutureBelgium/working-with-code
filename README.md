@@ -20,15 +20,15 @@ __Tech-Specs__
   </a>
 </div>
 
-### Index
-
 * [How To HYF](#how-to-hyf): HYF survival kit
 * [Learning Objectives](#learning-objectives): What you can expect to learn in this module
-* [Sunday Lesson Plan](https://github.com/hackyourfuturebelgium/working-with-code/wiki): A schedule for the day with activities and code-alongs
-* [Slide Deck](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html): Slide show for the Sunday lesson,  [source code here](./week-1.html)
-* [Module Homework](./week-1-homework.md): This module's homework assignment
-* [Helpful Links](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Helpful-Links): Study resources to help with this module's homework
-* [Deeper Dives](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Deeper-Dives): Extra fun and challenging projects to go above and beyond
+* Sunday Class: 
+  * [Prep Work](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Prep-Work) (wiki)
+  * [Lesson Plan](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Lesson-Plan) (wiki)
+  * [Slide Show](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html)
+  * [Homework](./week-1-homework.md): This module's assignments
+* [Helpful Links](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Helpful-Links): (wiki) Study resources to help with this module's homework
+* [Deeper Dives](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Deeper-Dives) (wiki): Extra fun and challenging projects to go above and beyond
 
 ---
 
