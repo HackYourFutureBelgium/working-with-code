@@ -25,7 +25,7 @@ This module's main objective is to get you comfortable with the workflows of pro
   * [Slide Show](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html)
   * [Homework](./week-1-homework.md)
 * [Deeper Dives](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Deeper-Dives): (wiki) Fun and challenging projects, above and beyond _Working with Code_
-* [Awesome Links](https://github.com/HackYourFutureBelgium/awesome-links/wiki): (wiki) Links for good learning
+* [Awesome Links](https://awesome.hackyourfuture.be): Links for good learning
 
 ---
 
