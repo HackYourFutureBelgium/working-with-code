@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "name": "/student-bios Pull Request",
+      "live": "https://HackYourFutureBelgium.github.io/class-repo-template/student-bios/<user-name>.md",
+      "source": "https://github.com/HackYourFutureBelgium/class-repo-template/tree/master/student-bios/<user-name>.md",
+      "repo": false
+    },
+    {
+      "name": "hack-my-future",
+      "live": false
+    },
+    {
+      "name": "<user-name>.github.io",
+      "live": "https://<user-name>.github.io"
+    }
+  ]
+}

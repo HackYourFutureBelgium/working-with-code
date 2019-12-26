@@ -123,16 +123,6 @@ async function codeAlong(config) {
 
   }
 
-  // // later
-  // let built = false;
-  // const observer = new IntersectionObserver(() => {
-  //   if (!built) {
-  //     buildCodeAlong();
-  //     built = true;
-  //   }
-  // });
-  // observer.observe(iframe);
-
   container.appendChild(iframe);
 
   return container;
@@ -140,11 +130,3 @@ async function codeAlong(config) {
 
 }
 
-
-
-  // frameContext.addEventListener('popstate',
-  //   (function goBack(confirmed) {
-  //     return confirmed
-  //       ? window.history.back()
-  //       : goBack(confirm('go back?'))
-  //   })(confirm('go back?')));
