@@ -37,6 +37,9 @@ Make sure you have all of these softwares installed on your computer:
     * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [GitKraken](https://www.gitkraken.com/download): A program that will help you master using git.
 * (If you have windows) [Git For Windows](https://gitforwindows.org/): This will allow you to use the same terminal commands & tools as Linux or Mac computers.
+* Slack: How you will communicate with HYF, classmates & coaches
+   * For Mobile: [App store](https://itunes.apple.com/nl/app/slack/id803453959?mt=12) or [Google Play](https://play.google.com/store/apps/details?id=com.Slack&hl=nl)
+   * For Desktop: [OSX](https://slack.com/downloads/osx), [Linux](https://slack.com/intl/en-be/downloads/linux) or [Windows](https://slack.com/downloads/windows)
 
 > If you have a Windows machine, it's recommended that you set up your computer for dual booting Linux.  Windows will work fine at the beginning of the course, but later on will make things more difficult for you. Get in touch with one of your coaches if you'd like to get this set up already.
 
