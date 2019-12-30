@@ -29,7 +29,7 @@ To Help you get a hang of the homework submission process and to make sure you g
 
 Make sure you have all of these softwares installed on your computer:
 
-* [Chromium](https://download-chromium.appspot.com/), [Firefox](https://www.mozilla.org/en-US/firefox/developer/) or [Brave](https://brave.com/download/): All great browsers with ES6, HTML5 & CSS3 support plus pre-installed, top-knotch developer tools.  Try each one to see what you like best!
+* [Chromium](https://download-chromium.appspot.com/), [Firefox](https://www.mozilla.org/en-US/firefox/developer/) & [Chrome](https://www.google.com/chrome/): All great browsers with ES6, HTML5 & CSS3 support plus pre-installed, top-knotch developer tools. Be sure to test your projects on all 3!
 * [Visual Studio Code](https://code.visualstudio.com/download): Like Microsoft Word, but for code ...  and _sooooo_ much better.  After installing VSC, be sure to install these plug-ins:
     * [Markdown Preview Github Styling Custom](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
     * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
