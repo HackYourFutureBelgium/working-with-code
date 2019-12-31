@@ -80,8 +80,6 @@ __Visual Studio Code__:
 * Adding, deleting and modifying files in a project folder
 
 
-_
-
 ---
 ---
 
