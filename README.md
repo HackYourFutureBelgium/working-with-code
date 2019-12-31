@@ -20,12 +20,12 @@ This module's main objective is to get you comfortable with the workflows of pro
 * [How To HYF](#how-to-hyf): HYF survival kit
 * [Learning Objectives](#learning-objectives): What you can expect to learn in this module
 * Week 1:
-  * [Prep Work](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Prep-Work) (wiki)
-  * [Lesson Plan](https://github.com/hackyourfuturebelgium/working-with-code/wiki/wk-1-Lesson-Plan) (wiki)
+  * [Prep Work](./prep-work.md#week-1)
+  * [Lesson Plan](./week-1-lesson-plan.md)
   * [Slide Show](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html)
   * [Homework](./week-1-homework.md)
-* [Deeper Dives](https://github.com/HackYourFutureBelgium/working-with-code/wiki/Deeper-Dives): (wiki) Fun and challenging projects, above and beyond _Working with Code_
-* [Awesome Links](https://awesome.hackyourfuture.be): Links for good learning
+* [Deeper Dives](./deeper-dives.md): Fun and challenging projects and resources to go above and beyond _Working with Code_
+* [Awesome Links](https://awesome.hackyourfuture.be): (external) Links for good learning
 
 ---
 
