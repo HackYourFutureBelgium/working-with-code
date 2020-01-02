@@ -74,6 +74,7 @@ __Visual Studio Code__:
 * Installing and enabling plugins
 * Opening folders in the side bars
 * Adding, deleting and modifying files in a project folder
+* Using a linter & live preview
 
 
 ---

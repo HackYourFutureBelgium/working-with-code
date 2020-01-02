@@ -28,8 +28,9 @@ async function codeAlong(config) {
   }
 
   const iframe = document.createElement('iframe');
-  iframe.style = 'height:100vh;width:100%;overflow:hidden;';
+  iframe.style = 'height:100vh;width:100%;overflow:hidden;background-color:white;';
   iframe.setAttribute('scrolling', 'no');
+  // iframe.setAttribute("allowtransparency", false);
 
   iframe.onload = async () => {
     // const buildCodeAlong = async () => {
