@@ -24,26 +24,41 @@
     link.href = window.location.search.match(/print-pdf/gi) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
     document.getElementsByTagName('head')[0].appendChild(link);
   </script>
+
+  <style>
+    /* https://stackoverflow.com/questions/25479420/how-to-add-a-fixed-footer-on-all-slides */
+    .reveal .footer {
+      position: absolute;
+      bottom: 1em;
+      left: 1em;
+      font-size: 0.5em;
+    }
+  </style>
 </head>
 
 <body>
 
 
   <div class="reveal">
+    <div class='footer'>
+      <p><code>ESC</code> to toggle overview</p>
+    </div>
+
     <div class="slides">
 
-      <section>
-        <h2>🙌 Welcome 🙌</h2>
-        <p>to HYF:</p>
-        <p>Working with Code</p>
+      <section id='cover-slide'>
+        <h2>🙌 A Big HYF Welcome 🙌</h2>
+        <p>0. Working with Code</p>
       </section>
 
-      <section>
-        <img src="./unicorn-rule.png" width="800">
+      <section id='introductions'>
+        <p>This is us, who are you?</p>
+        <p>-- content from Manon --</p>
+        <br>
+        <code>(~20 min)?</code>
       </section>
 
-      <!-- HYF program -->
-      <section>
+      <section id="how-to-hyf">
         <section>
           <h3>HackYourFuture</h3>
           <p>
@@ -51,6 +66,77 @@
             <i>"Teaches software development to refugees"</i><br>
             <br>
             <h6>— Hack Your Future Amsterdam —</h6>
+          </p>
+          <br>
+          <code>(~10 min)</code>
+        </section>
+        <section>
+          <h2>Sunday Classes</h2>
+          <ul>
+            <li>Class starts at 12h, be there!</li>
+            <li>Open review starts at 9:30, not required but very helpful</li>
+            <li>You won't be covering everything you need to learn in a week.</li>
+            <li>Only enough to <strong>begin</strong> studying and completing the homework.</li>
+            <li>Do the prep work & submit your questions ahead of time.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Class Home Page</h2>
+          <code>github.com/hackyourfuturebelgium/class-X/wiki</code>
+          <p>
+            Bookmark this!
+            <br>
+            Pin the tab!
+            <br>
+            Make it your home page!
+          </p>
+        </section>
+        <section>
+          <h2>Community</h2>
+          <br>
+          <p>
+            👩🏾‍🦳🧑🧔👩🏽‍🚀🙋🏿‍♀️👧🏾👨‍🦰👴🏼👨🏾‍🦳👩👩🏿‍🦰👩‍🦳👩🏽‍⚖️
+          </p>
+          <br>
+          <p>You will only survive with a little help from your friends ...</p>
+          <div>... and friend live on Slack :)</div>
+        </section>
+        <section>
+          <h3>Getting Stuck:</h3>
+          <ul>
+            <li>00 -> 20 min: Try on your own</li>
+            <li>20 -> 40 min: Ask your classmates (on the shared channel!)</li>
+            <li>40+ min: Tag your coaches </li>
+          </ul>
+        </section>
+        <section>
+          <img src="./unicorn-rule.png" width="800">
+        </section>
+        <section>
+          <h3>So, each week you should ...</h3>
+          <ul>
+            <li>... learn something</li>
+            <li>... get stuck on something</li>
+            <li>... ask for lots of help</li>
+            <li>... give lots of help (!)</li>
+            <li>... come to class</li>
+            <li>... submit your homework</li>
+            <li>... and sleep a little if you can :)</li>
+          </ul>
+        </section>
+      </section>
+
+      <section id="course-content">
+        <section>
+          <h2>Course Content</h2>
+          <p>What will you learn while you're here?</p>
+          <br>
+          <code>(~5 min)</code>
+        </section>
+        <section>
+          <h3>What is a FrontEnd developer?</h3>
+          <p>
+            Read a little about it <a href="https://frontendmasters.com/books/front-end-handbook/2019/#2">here</a>
           </p>
         </section>
         <section>
@@ -79,7 +165,7 @@
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgCAMAAAC8EZcfAAAAflBMVEX33x4AAAD74x9JQgnUwBrx2h0sKAX/6B/+5R+WiBL/6iD03R5SSgrm0BweGwQSEAL/7iCbjBPr1R0xLAbbxhsoJAXItRmMfxEbGAM8NgeqmhWwoBU2MQdmXQygkRTNuhm/rBeFeBAKCQFhVwtxZg5ZUQsiHwR6bg9DPAi4phfCosYUAAAE/ElEQVR4nO2bW3uqOhBAYQATkVRFBAVRrLor//8PHmhrSy4EvAT2Pt+shz5AMcskJJNJtCwEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQZD/AQD0EwAYrEzC014wEN+L4qLMsrI4RKGv+ddXMttPmyyZulgAP0xzZ/dmf/Jn5+RLRugAjt7VbvLmKsukYenYEquUUfOCfMETlSCQNJD1aq5745XYQxDYVa1Xs40MV2K3oJ/9aferOkXqjyvopzq9mpSMKUj3XX62vTRp2CFID+/dgnZhsJX1guC99fCz15G5d7lDMOnjZ9uX2TiCEM37Cdp7Y91QK+h/9PSz18baWCtIFSrXPN9JF3NznVAnSErJLq4jHh/iU/PqqvDHeUmkFj7Ovuc1CsXv1cRoyKATnAkhwqkRApJ483VxG5sNXjWCwLa8IBcrkri+NE+s8YIFcCfcvZwf7Mixqr7DmOEW3Frx1tdEl2C5MB9SawX5YXoq2njm4+m7avA43Equp6C75u5dvb9NMBKmjMMQTXqPYCiu5AbpdP0FLXoSBANmNLq/W9CXosH3YsCcR7cguKJgNVrHMGw76+NBWdCe5/FiiJRHL0GyVBhW4VXGhlPsCPlb1uzXaTTALNctaNGpWrB6XXLXdBzTRxBm2xbBirwYQrFz4d4uaNvOwWCs30/QotK6hCNwTQ+Mnckj6EgeJYbnv+70G8n0hu+HsdYkP4bxusXtVokmR8U+KWDKxKhB4GyNlTz6BvxMM9xUnLxxUh+/ENY6ZH8ZjpM8agA0PK40hsYWLH0F63aOpnLa6EYVKY4tWG83eWXrjsTaUCPfI1hB/PjckhXem0lU3ylYJ7YidV7YMZMGvluw3hmzlqpRpzQy5z0gWOEzxfZJYsLvQcFq1IkuomBgJPPwoGCtKGXY2V8lWEXb4gzd/9lBBC3qCkuqzMRb0kOQtpUrpkZesKkox+fCkQBFRA37U0ut+kdeMHl6qKYHqRU8Pg+9E3ZkgMZB6yRBhLEmebIGKUk2K/FUR8iXseXv+965TgNvXGUr+9NXCoL1uffyIdSQsKx0mpEn9W4GO+XJBCL0wad2FP3o/PUpMfcpYobt0shf+uXvRk6gWLtBJASIT8x1dJbcMvaTZiOCJayHzrfeBhBx73cg1SFY4kj98I4i0KIxuTuNrTUiBia3VgJ2FO5sCj4xSC3x2U34oB8Jc+7gwY4t4BO6WIonEm6VQBRLkNxdfJ8qq/4uoly6/2C8pTi3kccRY8wt5aDpp4MS1V77bulGLAxDFpVSqGDb6YMtTFVZyInjqEK6j59WpC35hIlzOQXKuH/96FQMYcvBKwXNLMax91Nf5A/PIx0JqganRkQHoX6tLtFysK8PvtSfWyia7ylV5Pg1PDWNzDTH1xqcFtxTNO57KKXi8lTyA9xNdxH2WmwkGvcXfPLcAnW7j2DNY6kM4ranEjje1dHEPYYHXWLlk1LRiSjr1X0nT/vVc9dEW8ZcPdPDTJpsZIKXnEsBmGr6/KV1H9NnZ73iKn1RghWo25ooTTWZcAD3rPGbRq/LGgFhZ3n0fQv2HRuYQLy9o+oh60sKr81Pg8/Kad5IT20/0gN0VwEQiLLkNOHkkswlr8+5Vd/YC5lbZFlWxlHoWX1roKplLwyrB9M0zQqXhd6LK48r7PabgfufpJQQUv/awIAWgiAIgvxL/AeP8EGXyuw/cgAAAABJRU5ErkJggg==">
           <p>
             JavaScript<br>
-            To not confound with Java!
+            Not to be confused with Java!
           </p>
         </section>
         <section>
@@ -107,46 +193,11 @@
           <img
             src="data:image/jpeg;base64,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">
           <p>
-            Project
-          </p>
-        </section>
-      </section>
-
-      <!-- let's become a developer -->
-      <section>
-        <section>
-          <h3>On the way to become developer 🖥️</h3>
-          <ul>
-            <li>Class -> 4 hours per week</li>
-            <li>Homework + personnal investment -> 25+ hours per week</li>
-            <li>Volunteer coaches</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Community</h3>
-          <br><br>
-          <p>
-            👩🏾‍🦳🧑🧔👩🏽‍🚀🙋🏿‍♀️👧🏾👨‍🦰👴🏼👨🏾‍🦳👩👩🏿‍🦰👩‍🦳👩🏽‍⚖️
+            Collaborative Development
           </p>
         </section>
         <section>
-          <h3>Getting Stuck:</h3>
-          <ul>
-            <li>00 -> 20 min: Try on your own</li>
-            <li>20 -> 40 min: Ask your classmates (on the shared channel!)</li>
-            <li>40+ min: Tag your coaches </li>
-          </ul>
-        </section>
-        <section>
-          <h3>What's happens every week?</h3>
-          <ul>
-            <li>You should learn something</li>
-            <li>You should get stuck on something</li>
-            <li>You should ask for lots of help</li>
-          </ul>
-        </section>
-        <section>
-          <h3>(Soft-)Skill</h3>
+          <h3>Non-Coding Skills</h3>
           <p>Communication - Searching - Education (culture) - Discipline - problem oriented - autonomous</p>
         </section>
         <section>
@@ -156,55 +207,101 @@
         </section>
       </section>
 
-      <!-- what is internet? -->
-      <section>
+      <section id="learning-objectives">
         <section>
-          <h3>What is internet?</h3>
-          <iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" width="384" height="480" frameBorder="0"
-            class="giphy-embed" allowFullScreen></iframe>
-          <p><a href="https://giphy.com/gifs/computer-cat-wearing-glasses-VbnUQpnihPSIgIXuZv"></a></p>
-        </section>
-        <section>
-          <img
-            src="https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/cloud-computing-logistics-2017-1000x640.jpg">
-        </section>
-        <section>
-          <h3>What is a FrontEnd developer?</h3>
-          <p class="fragment">
-            Read a little about it <a href="https://frontendmasters.com/books/front-end-handbook/2019/#2">here</a>
+          <h2>Learning Objectives</h2>
+          <p>
+            What can you expect to cover in class today?
           </p>
+          <br>
+          <code>(~5 min)</code>
+        </section>
+        <section>
+          <h2>Git, GitHub & GitKraken</h2>
+          <ul>
+            <li>Creating new repositories</li>
+            <li>Forking existing repositories</li>
+            <li>Pushing & Pulling from GitHub</li>
+            <li>Committing local changes</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Visual Studio Code</h2>
+          <ul>
+            <li>Opening a directory in the side-bar</li>
+            <li>Editing, creating and deleting files</li>
+            <li>Installing, configuring and using plugins</li>
+            <li>Previewing Markdown files</li>
+            <li>Applying changes suggested by a linter</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Markdown</h2>
+          <ul>
+            <li>Headers</li>
+            <li>Links</li>
+            <li>Images</li>
+            <li>Lists</li>
+            <li>Tables</li>
+            <li>Emphasis</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Homework Submission Process</h2>
+          <ul>
+            <li>Finding your way around HYF</li>
+            <li>Creating Issues in the class repo</li>
+            <li>Adding issues to a project board</li>
+            <li>Moving issues along a project board</li>
+            <li>Code review with issues in your repo</li>
+          </ul>
         </section>
       </section>
 
-      <!-- how works internet? -->
-      <section>
-        <section>
-          <h3>Yeah, great!</h3>
-          <iframe class="fragment" src="https://giphy.com/embed/dds5k7CtNGUpN93Abq" width="480" height="480"
-            frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          <p><a href="https://giphy.com/gifs/lifetimetv-abs-lifetime-american-beauty-star-dds5k7CtNGUpN93Abq"></a></p>
-          <h4 class="fragment">But how this is working?</h4>
-        </section>
-        <section>
-          <img src="https://miro.medium.com/max/1200/0*th2x89zHuZmHGsLJ.png">
-        </section>
-        <section>
-          <img src="https://miro.medium.com/max/2560/1*AwGI1e13BoLvUd2wThmSLw.jpeg">
-        </section>
-        <section>
-          <img src="https://www.techcommuters.com/wp-content/uploads/2019/06/browsers.png">
-        </section>
-        <!-- <section>
-          <h1>DEMO TIME</h1>
-        </section> -->
+      <section id='software-check'>
+        <h2>Software Check</h2>
+        <p>Make sure all of your computers have all of their software.</p>
+        <p>Find the required softwares <a
+            href="https://github.com/HackYourFutureBelgium/working-with-code/blob/master/assignments.md#software-installations"
+            target="_blank">in <code>assignments.md</code></a></p>
+        <br>
+        <code>(~20 min)</code>
       </section>
 
-      <section>
+      <section id='hyf-directory'>
+        <section>
+          <h2>HYF Directory</h2>
+          <p>Create a new directory for all your HYF study materials</p>
+          <p>You will do this using VSC</p>
+          <br>
+          <code>(~10 min)</code>
+        </section>
+        <section>
+          <h2>Create & Open</h2>
+          <ol>
+            <li>Create a new directory called <code>HYF</code> in Documents</li>
+            <li>Open the empty directory in VSC</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Follow The Instructions</h2>
+          <a href="https://github.com/HackYourFutureBelgium/working-with-code/blob/master/assignments.md#hyf-directory"
+            target="_blank">in <code>assignments.md</code></a>
+          <p>to fill out the rest of the directory</p>
+        </section>
+      </section>
 
-        <section id='markdown'>
+      <section id='markdown'>
+
+        <section>
           <h2>Markdown!</h2>
-          <p>an incomplete, but adequate introduction:</p>
-
+          <code>an incomplete, but adequate introduction:</code>
+          <br>
+          <p>It is the only programming language you need for this week's assignments.</p>
+          <br>
+          <code>(~15 min)</code>
+        </section>
+        <section id='toc'>
           <ul>
             <li><a href='#starter'>starter example</a></li>
             <li><a href='#text'>writing text</a></li>
@@ -214,6 +311,13 @@
             <li><a href='#ols'>ordered lists</a></li>
             <li><a href='#code-samples'>code samples</a></li>
           </ul>
+          <br>
+          <br>
+          <h4>
+            <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf" target="blank">
+              Markdown Cheat Sheet (PDF)
+            </a>
+          </h4>
         </section>
 
         <section id='starter'>
@@ -292,10 +396,10 @@
       </section>
 
 
-      <!-- Git -->
-      <section>
+      <section id='git-github-gitkraken'>
         <section>
-          <h3>Git</h3>
+          <h2>Git, GitHub, GitKraken</h2>
+          <br><br>
           <p>
             <em>"It is easy to shoot your foot off with git, but also easy to revert to a previous foot and merge it
               with your
@@ -303,36 +407,157 @@
             <br>
             <h6>— Jack William Bell —</h6>
           </p>
+          <br><br>
+          <code>(~60 min)</code>
         </section>
-        <!-- update this for wiki editing instead -->
         <section>
-          <!-- Take a google sheet, give them 5 minutes to work on the same doc
-                      They have to add their name & country
-                      After that they have to put any teammate name in a colour
-                      And add a nickname to another one
-                      eg: `Kevin (aka: The joker) -> From Belgium` -->
-          <h2>EXERCICE TIME</h2>
-          <p><a href='https://github.com/HackYourFutureBelgium/working-with-code/wiki/wk-1-Lesson-Plan#github-practice'
-              target='_blank'>Small Group GitHub Practice</p>
-          <!-- <ul>
-            <li>Add your name, and your country (eg: <em>Kevin -> From Belgium</em>)</li>
-            <li>Chose one of your teammate and put his name into a beautiful colour (always different)</li>
-            <li>Choose another teammate and add him/her a nickname (eg: <em>Kevin (aka: The joker) -> From Belgium</em>)
-            </li>
-          </ul> -->
+          <img
+            src="data:image/jpg;base64,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" />
+        </section>
+        <section>
+          <img src="http://logz.io/wp-content/uploads/2015/11/github-logo.gif" alt="octocat" />
+        </section>
+        <section>
+          <img style="height:40%;width:40%;"
+            src="https://www.gitkraken.com/downloads/brand-assets/gitkraken-logo-dark-sq.png" alt="gitkraken logo" />
+        </section>
+        <section>
+          <h3>GitHub Accounts</h3>
+          <br>
+          <p>Come write your name and username on the whiteboard!</p>
+          <br>
+          <code>(Does everyone have one already?)</code>
+        </section>
+        <section>
+          <h2>Practice Time!</h2>
+          <code>(in small groups)</code>
+          <br><br>
+          <ol>
+            <li><a
+                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/new-repository-and-github-pages.md"
+                target="_blank">
+                Create a repo and turn on GitHub Pages
+              </a></li>
+            <li><a
+                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/forking-a-repository.md"
+                target="_blank">
+                Fork a repository
+              </a></li>
+            <li><a
+                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/pull-request-and-merge.md"
+                target="_blank">
+                Pull Requests & Merging
+              </a></li>
+            <li><a
+                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/pull-add-new-file-push.md"
+                target="_blank">
+                Pull, add a file, commit, push
+              </a></li>
+          </ol>
+          <br>
+          <p><a href="https://awesome.hackyourfuture.be/git-and-github">helpful links</a></p>
+        </section>
+        <!-- extra: Take a google sheet, give them 5 minutes to work on the same doc
+                                              They have to add their name & country
+                                              After that they have to put any teammate name in a colour
+                                              And add a nickname to another one
+                                              eg: `Kevin (aka: The joker) -> From Belgium`
+            this is extra because:
+              at this point git is not about collaboration
+              it's about managing & hosting their own work
+              collaboration will come later -->
+      </section>
+
+      <section id='homework-launch'>
+        <section>
+          <h2>Homework Launch</h2>
+          <p>Start the homework together, so you have no excuses :)</p>
+          <br>
+          <code>(~45 min)</code>
+        </section>
+        <section>
+          <h3><a target="_blank" href="https://github.com/hackyourfuturebelgium/homework-submission">
+              Homework Submission Process</a></h3>
+        </section>
+        <section>
+          <h3>1. Create an issue in your class repo</h3>
+          <br><br>
+          <a href="https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue" target="_blank">
+            How to create issues
+          </a>
+        </section>
+        <section>
+          <h3>2. Add it to this week's project board</h3>
+          <br><br>
+          <a href="https://help.github.com/en/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board"
+            target="_blank">
+            How to add issues to projects
+          </a>
+        </section>
+        <section>
+          <h3>3. Fork the <a
+              href="https://github.com/HackYourFutureBelgium/working-with-code/blob/master/week-1-homework.md#hack-my-future"
+              target="_blank">
+              <code>hack-my-future</code> repository
+            </a></h3>
+          <br><br>
+          <p>Follow the instructions to clone and set up your fork</p>
+        </section>
+        <section>
+          <h3>4. Begin your <code>/student-bios</code> Pull Request</h3>
+          <br>
+          Fork<a
+            href="https://github.com/HackYourFutureBelgium/working-with-code/blob/master/week-1-homework.md#student-bios-pull-request"
+            target="_blank">
+            <code>/student-bios</code> Pull Request
+          </a>
+          <br><br>
+          <p>Follow the instructions in the <code>/student-bios</code> directory</p>
+        </section>
+        <section>
+          <h2>Got all that?</h2>
         </section>
       </section>
 
-
-      <section>
-        about working on your local computer: file structure, installs, ...
+      <section id="thats-all">
+        <h2>🙌 A Big HYF Good Bye 🙌</h2>
+        <p>0. Working with Code</p>
       </section>
 
 
+      <!-- if there is time left -->
+      <!-- <section id="what-is-internet">
+        <section>
+          <h3>What is internet?</h3>
+          <iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" width="384" height="480" frameBorder="0"
+            class="giphy-embed" allowFullScreen></iframe>
+          <p><a href="https://giphy.com/gifs/computer-cat-wearing-glasses-VbnUQpnihPSIgIXuZv"></a></p>
+        </section>
+        <section>
+          <img
+            src="https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/cloud-computing-logistics-2017-1000x640.jpg">
+        </section>
+        <section>
+          <h3>Yeah, great!</h3>
+          <iframe src="https://giphy.com/embed/dds5k7CtNGUpN93Abq" width="480" height="480" frameBorder="0"
+            class="giphy-embed" allowFullScreen></iframe>
+          <p><a href="https://giphy.com/gifs/lifetimetv-abs-lifetime-american-beauty-star-dds5k7CtNGUpN93Abq"></a></p>
+          <h4>But how this is working?</h4>
+        </section>
+        <section>
+          <img src="https://miro.medium.com/max/1200/0*th2x89zHuZmHGsLJ.png">
+        </section>
+        <section>
+          <img src="https://miro.medium.com/max/2560/1*AwGI1e13BoLvUd2wThmSLw.jpeg">
+        </section>
+        <section>
+          <img src="https://www.techcommuters.com/wp-content/uploads/2019/06/browsers.png">
+        </section>
+        <section>
+          <h1>DEMO TIME</h1>
+        </section>
+      </section> -->
 
-      <section>
-        homework launch: practice pull requests, practice clone/push for portfolio repo, fork hack-my-future repo
-      </section>
 
 
     </div>
@@ -357,7 +582,7 @@
       dependencies: [
         // { src: 'plugin/markdown/marked.js' },
         // { src: 'plugin/markdown/markdown.js' },
-        { src: './reveal.js/plugin/notes/notes.js', async: true },
+        // { src: './reveal.js/plugin/notes/notes.js', async: true },
         // { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
         // { src: 'plugin/highlight/highlight.js', async: true }
       ]

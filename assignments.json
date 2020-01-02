@@ -2,12 +2,10 @@
   "projects": [
     {
       "name": "/student-bios Pull Request",
-      "source": "https://github.com/HackYourFutureBelgium/<class-name>/tree/master/student-bios/<user-name>.md",
-      "repo": false
+      "source": "https://github.com/HackYourFutureBelgium/<class-name>/tree/master/student-bios/<user-name>.md"
     },
     {
-      "name": "hack-my-future",
-      "live": false
+      "name": "hack-my-future"
     },
     {
       "name": "<user-name>.github.io",

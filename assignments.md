@@ -1,4 +1,4 @@
-# Working With Code: Week 1 Homework
+# Working With Code: Assignments
 
 Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you'll start learning to:
 
@@ -19,9 +19,6 @@ There are 5 assignments, 2 on your computer and 3 on GitHub:
 
 
 To Help you get a hang of the homework submission process and to make sure you get everything done, we've provided a template issue in your class repository.  If you haven't already head over there, create a new issue from the template, and add it to your class' `Working with Code` project board.
-
----
-
 
 ---
 
