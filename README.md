@@ -13,15 +13,15 @@ It'll take a little while to learn how to keep this all organized in your head a
 This module's main objective is to get you comfortable with the workflows of programming, and of Hack Your Future BE.  The finished project won't be complex or impressive to the casual observer, but in order for you to complete it you will need to have a basic overview of the entire development process.  Including: ideation, local development, pushing and pulling to github, and hosting static web pages.
 
 ### Overview
+
 * [How To HYF](#how-to-hyf): HYF survival kit
 * [Learning Objectives](#learning-objectives): What you can expect to learn in this module
 * Week 1:
-  * [Prep Work](./prep-work.md)
+  * [Prep Work](./week-1.md#prep-work)
   * [Lesson Plan](https://hackyourfuturebelgium.github.io/working-with-code/week-1.html)
-  * [Homework](./assignments.md)
+  * [Assignments](./week-1.md#assignments)
 * [Deeper Dives](./deeper-dives.md): Fun and challenging projects and resources to go above and beyond _Working with Code_
 * [Awesome Links](https://awesome.hackyourfuture.be): (external) Links for good learning
-* [The Whole Curriculum](https://curriculum.hackyourfuture.be)
 
 ---
 

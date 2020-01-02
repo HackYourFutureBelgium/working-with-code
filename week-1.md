@@ -1,4 +1,22 @@
-# Working With Code: Assignments
+# Working With Code
+
+## Prep Work
+
+Materials to read, review, and practice before coming into class/
+
+1. Watch at least the first 3 videos of [Git & GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).  This is an outstanding video series that will help you understand why you need Git & GitHub, with no coding yet!
+2. Read through [the HYF Be Precourse](https://github.com/hackyourfuturebelgium/precourse) if you haven't already.
+3. Familiarize yourself with the [Homework Submission Process](http://github.com/hackyourfuturebelgium/homework-submission) here at HYF.
+
+---
+
+## Lesson Plan
+
+* [Live slide show](https://hackyourfuture.be/working-with-code/week-1.html)
+
+---
+
+## Assignments
 
 Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you'll start learning to:
 
@@ -22,7 +40,7 @@ To Help you get a hang of the homework submission process and to make sure you g
 
 ---
 
-## Software Installations
+### Software Installations
 
 Make sure you have all of these softwares installed on your computer:
 
@@ -44,7 +62,7 @@ Make sure you have all of these softwares installed on your computer:
 
 ---
 
-## HYF Directory
+### HYF Directory
 
 Set up a new directory *on your computer* to host all of the code you write while at HYF.  It should look something like this, but feel free to change it as you find what works for you!
 
@@ -64,7 +82,7 @@ Set up a new directory *on your computer* to host all of the code you write whil
 
 ---
 
-## student-bios Pull Request
+### student-bios Pull Request
 
 Send a Pull Request to your class repository with a short bio so your classmates and coaches can get to know you.  You can find more instructions for this in the `/student-bios` directory of your class repo.
 
@@ -73,7 +91,7 @@ Send a Pull Request to your class repository with a short bio so your classmates
 
 ---
 
-## hack-my-future
+### hack-my-future
 
 1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future).
 1. [Pin](https://github.blog/2016-06-16-pin-repositories-to-your-github-profile/) it to your GitHub account
@@ -86,7 +104,7 @@ Send a Pull Request to your class repository with a short bio so your classmates
 
 ---
 
-## Markdown Home Page
+### Markdown Home Page
 
 Create a home page using markdown (not HTML/CSS!) in the `<username>.github.io` repository on your GitHub account. Later on you can turn this repository into an amazing portfolio web site, but for now stick with the basics :)
 
