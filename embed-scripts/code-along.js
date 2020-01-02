@@ -45,7 +45,7 @@ async function codeAlong(config) {
       const ghMdStyle = document.createElement('link');
       ghMdStyle.type = 'text/css';
       ghMdStyle.setAttribute('rel', 'stylesheet');
-      ghMdStyle.setAttribute('href', './embed-scripts/github-markdown.css');
+      ghMdStyle.setAttribute('href', '../embed-scripts/github-markdown.css');
 
       ghMdStyle.addEventListener('load', () => resolve());
       ghMdStyle.addEventListener('error', (e) => reject(e.message))
@@ -55,7 +55,7 @@ async function codeAlong(config) {
 
     const loadingMarked = new Promise((resolve, reject) => {
       const markedScript = document.createElement('script');
-      markedScript.src = "./embed-scripts/marked.js";
+      markedScript.src = "../embed-scripts/marked.js";
       markedScript.type = "text/javascript";
       markedScript.charset = "utf-8";
 
@@ -67,7 +67,7 @@ async function codeAlong(config) {
 
     const loadingAce = new Promise((resolve, reject) => {
       const aceScript = document.createElement('script');
-      aceScript.src = "./embed-scripts/ace/ace.js";
+      aceScript.src = "../embed-scripts/ace/ace.js";
       aceScript.type = "text/javascript";
       aceScript.charset = "utf-8";
 
