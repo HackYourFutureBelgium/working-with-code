@@ -21,7 +21,6 @@ This module's main objective is to get you comfortable with the workflows of pro
   * [Homework](./assignments.md)
 * [Deeper Dives](./deeper-dives.md): Fun and challenging projects and resources to go above and beyond _Working with Code_
 * [Awesome Links](https://awesome.hackyourfuture.be): (external) Links for good learning
-* [The Whole Curriculum](https://curriculum.hackyourfuture.be)
 
 ---
 
