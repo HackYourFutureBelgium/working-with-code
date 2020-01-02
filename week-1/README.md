@@ -12,7 +12,7 @@ Materials to read, review, and practice before coming into class/
 
 ## Lesson Plan
 
-* [Live slide show](https://hackyourfuture.be/working-with-code/week-1.html)
+* [Live slide show](https://hackyourfuture.be/working-with-code/week-1)
 
 ---
 
