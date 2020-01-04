@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://hackyourfuture.be" target="_blank">
-    <img src="https://user-images.githubusercontent.com/18554853/63941625-4c7c3d00-ca6c-11e9-9a76-8d5e3632fe70.jpg" width="250" height="250"/>
+    <img src="https://avatars2.githubusercontent.com/u/36824945?s=200&v=4" width="250" height="250"/>
   </a>
 </div>
 
