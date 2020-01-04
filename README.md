@@ -31,7 +31,7 @@ Some resources to help you get oriented in the first weeks:
 
 * [Student Handbook](https://github.com/HackYourFutureBelgium/student-handbook)
 * [Homework Submission](https://github.com/hackyourfuturebelgium/homework-submission)
-* [Curriculum Overview](https://hackyourfuturebelgium.github.io/curriculum)
+* [Curriculum Overview](https://github.com/HackYourFutureBelgium/curriculum)
 
 [TOP](#top)
 
