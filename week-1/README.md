@@ -96,7 +96,7 @@ Send a Pull Request to your class repository with a short bio so your classmates
 1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future).
 1. [Pin](https://github.blog/2016-06-16-pin-repositories-to-your-github-profile/) it to your GitHub account
 1. Set up your `learnables` project board, as described in the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future)
-1. Clone the repository into your `HYF` directory
+1. [Clone the repository](https://support.gitkraken.com/working-with-repositories/open-clone-init/) into your `HYF` directory (with GitKraken)
 1. Begin tracking your learning!
 
 
