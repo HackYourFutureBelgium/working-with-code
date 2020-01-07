@@ -41,7 +41,7 @@
 
   <div class="reveal">
     <div class='footer'>
-      <p><code>ESC</code> to toggle overview</p>
+      <p id="footer-text">ESC to overview</p>
     </div>
 
     <div class="slides">
@@ -537,7 +537,7 @@
               </a></li>
           </ol>
           <br>
-          <p><a href="https://awesome.hackyourfuture.be/git-and-github" target="_blank">helpful links</a></p>
+          <p><a href="https://study.hackyourfuture.be/git-and-github" target="_blank">helpful links</a></p>
         </section>
         <!-- extra: Take a google sheet, give them 5 minutes to work on the same doc
                                               They have to add their name & country
@@ -564,7 +564,8 @@
         <section>
           <h3>1. Create an issue in your class repo</h3>
           <br><br>
-          <a href="https://help.github.com/en/github/building-a-strong-community/about-issue-and-pull-request-templates" target="_blank">
+          <a href="https://help.github.com/en/github/building-a-strong-community/about-issue-and-pull-request-templates"
+            target="_blank">
             How to use Issues Templates
           </a>
           <br>
@@ -611,39 +612,6 @@
       </section>
 
 
-      <!-- if there is time left -->
-      <!-- <section id="what-is-internet">
-        <section>
-          <h3>What is internet?</h3>
-          <iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" width="384" height="480" frameBorder="0"
-            class="giphy-embed" allowFullScreen></iframe>
-          <p><a href="https://giphy.com/gifs/computer-cat-wearing-glasses-VbnUQpnihPSIgIXuZv"></a></p>
-        </section>
-        <section>
-          <img
-            src="https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/cloud-computing-logistics-2017-1000x640.jpg">
-        </section>
-        <section>
-          <h3>Yeah, great!</h3>
-          <iframe src="https://giphy.com/embed/dds5k7CtNGUpN93Abq" width="480" height="480" frameBorder="0"
-            class="giphy-embed" allowFullScreen></iframe>
-          <p><a href="https://giphy.com/gifs/lifetimetv-abs-lifetime-american-beauty-star-dds5k7CtNGUpN93Abq"></a></p>
-          <h4>But how this is working?</h4>
-        </section>
-        <section>
-          <img src="https://miro.medium.com/max/1200/0*th2x89zHuZmHGsLJ.png">
-        </section>
-        <section>
-          <img src="https://miro.medium.com/max/2560/1*AwGI1e13BoLvUd2wThmSLw.jpeg">
-        </section>
-        <section>
-          <img src="https://www.techcommuters.com/wp-content/uploads/2019/06/browsers.png">
-        </section>
-        <section>
-          <h1>DEMO TIME</h1>
-        </section>
-      </section> -->
-
 
 
     </div>
@@ -659,11 +627,6 @@
       width: "100%",
       height: "100%",
       keyboard: {
-        67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-        66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-        46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-        8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-        68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
       },
       dependencies: [
         // { src: 'plugin/markdown/marked.js' },
@@ -672,6 +635,13 @@
         // { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
         // { src: 'plugin/highlight/highlight.js', async: true }
       ]
+    });
+
+    Reveal.addEventListener('overviewshown', function (event) {
+      document.getElementById('footer-text').innerHTML = "ESC into slide";
+    });
+    Reveal.addEventListener('overviewhidden', function (event) {
+      document.getElementById('footer-text').innerHTML = "ESC to overview";
     });
 
 

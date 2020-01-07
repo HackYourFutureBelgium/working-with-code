@@ -21,7 +21,7 @@ This module's main objective is to get you comfortable with the workflows of pro
   * [Lesson Plan](https://hackyourfuture.be/working-with-code/week-1)
   * [Assignments](./week-1#assignments)
 * [Deeper Dives](./deeper-dives.md): Fun and challenging projects and resources to go above and beyond _Working with Code_
-* [Awesome Links](https://awesome.hackyourfuture.be): (external) Links for good learning
+* [Study Links](https://study.hackyourfuture.be): (external) Links for good learning
 
 ---
 
