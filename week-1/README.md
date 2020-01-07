@@ -46,7 +46,7 @@ Make sure you have all of these softwares installed on your computer:
 
 * [Chromium](https://download-chromium.appspot.com/), [Firefox](https://www.mozilla.org/en-US/firefox/developer/) & [Chrome](https://www.google.com/chrome/): All great browsers with ES6, HTML5 & CSS3 support plus pre-installed, top-knotch developer tools. Be sure to test your projects on all 3!
 * [Visual Studio Code](https://code.visualstudio.com/download): Like Microsoft Word, but for code ...  and _sooooo_ much better.  After installing VSC, be sure to install these plug-ins:
-    * [Markdown Preview Github Styling Custom](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
+    * [Markdown Preview Github Styles](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
     * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
     * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#overview)
     * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
@@ -96,7 +96,7 @@ Send a Pull Request to your class repository with a short bio so your classmates
 1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future).
 1. [Pin](https://github.blog/2016-06-16-pin-repositories-to-your-github-profile/) it to your GitHub account
 1. Set up your `learnables` project board, as described in the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future)
-1. Clone the repository into your `HYF` directory
+1. [Clone the repository](https://support.gitkraken.com/working-with-repositories/open-clone-init/) into your `HYF` directory (with GitKraken)
 1. Begin tracking your learning!
 
 
