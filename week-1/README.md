@@ -112,7 +112,8 @@ Create a home page using markdown (not HTML/CSS!) in the `<username>.github.io` 
 
 The writing process should look something like this:
 
-1. Create a new repository on your github account named `<username>.github.io` (with or without a `README.md`)
+1. Create a [new repository on your github account named `<username>.github.io`](https://guides.github.com/features/pages) (with or without a `README.md`)
+1. [Turn on GitHub Pages](https://guides.github.com/features/pages)
 1. Clone the repository to your computer using GitKraken
 1. Open the repository in VSC
 1. Open or create the `README.md` file, turn on [Markdown Preview](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
