@@ -129,7 +129,7 @@ Can you figure out how to make something like a header/navbar using only Markdow
 
 #### Creating a Live Home Page
 
-[Turn on GitHub Pages](https://www.thinkful.com/learn/a-guide-to-using-github-pages/), that's all you need to do to create a live web page!
+[Turn on GitHub Pages](https://help.github.com/en/github/working-with-github-pages/about-github-pages), that's all you need to do to create a live web page!
 
 After turning on GitHub pages, add this link as your home page on your github user profile (if you don't already have a personal web site).
 
