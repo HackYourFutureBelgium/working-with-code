@@ -7,23 +7,14 @@
 
   <title>Working With Code</title>
 
-  <script src='../embed-scripts/code-along.js'></script>
+  <script src='../dependencies/code-along.js'></script>
 
-  <link rel="stylesheet" href="../reveal.js/css/reset.css">
-  <link rel="stylesheet" href="../reveal.js/css/reveal.css">
-  <link rel="stylesheet" href="../reveal.js/css/theme/night.css">
+  <link rel="stylesheet" href="../dependencies/reveal.js/css/reset.css">
+  <link rel="stylesheet" href="../dependencies/reveal.js/css/reveal.css">
+  <link rel="stylesheet" href="../dependencies/reveal.js/css/theme/night.css">
 
   <!-- Theme used for syntax highlighting of code -->
   <!-- <link rel="stylesheet" href="./reveal.js/lib/css/monokai.css"> -->
-
-  <!-- Printing and PDF exports -->
-  <script>
-    var link = document.createElement('link');
-    link.rel = '../reveal.js/stylesheet';
-    link.type = '../reveal.js/text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
-    document.getElementsByTagName('head')[0].appendChild(link);
-  </script>
 
   <style>
     /* https://stackoverflow.com/questions/25479420/how-to-add-a-fixed-footer-on-all-slides */
@@ -41,8 +32,22 @@
 
   <div class="reveal">
     <div class='footer'>
-      <p id="footer-text">ESC to overview</p>
+      <ul id='footer-links' style='visibility: hidden;'>
+        <li>
+          <a id='to-repo' href="https://github.com/hackyourfuturebelgium/encapsulation" target="_blank">
+            <code>module repository</code>
+          </a>
+        </li>
+        <li>
+          </a><a id='to-sketchpad' href="https://hackyourfuture.be/sketchpad" target="_blank">
+            <code>live sketchpad</code>
+          </a>
+        </li>
+      </ul>
+      <br>
+      <code id="footer-text">ESC to overview</code>
     </div>
+
 
     <div class="slides">
 
@@ -54,7 +59,11 @@
         </div>
         <h2>🙌 A Big HYF Welcome 🙌</h2>
         <br>
-        <a href="https://github.com/hackyourfuturebelgium/working-with-code/tree/master/week-1">(back to repo)</a>
+        <code>"s"</code> for speaker notes
+        <br>
+        <a href="https://github.com/hackyourfuturebelgium/working-with-code/tree/master/week-1" target='_blank'>
+          -- back to repo --
+        </a>
       </section>
 
       <section id='introductions'>
@@ -76,7 +85,7 @@
             <li>Coaches</li>
           </ul>
         </section>
-        <section>
+        <!-- <section>
           <h2>Manon Brulard</h2>
           <div>
             <img src="https://hackyourfuture.be/img/3.jpg" width="250" height="250" alt="manon brulard" />
@@ -115,7 +124,7 @@
             <img src="https://2020.openbelgium.be/themes/appsforghent//assets/images/openbelgium2020wit.png" width="500"
               height="250" alt="open belgium" />
           </a>
-        </section>
+        </section> -->
       </section>
 
       <section id="how-to-hyf">
@@ -132,17 +141,29 @@
         </section>
         <section>
           <h2>Sunday Classes</h2>
+          <br>
           <ul>
             <li>Class starts at 12h, be there!</li>
-            <li>Open review starts at 9:30, not required but very helpful</li>
-            <li>You won't cover everything you need to learn.</li>
-            <li>Only enough to <strong>begin</strong>the assignments.</li>
+            <li>Open review starts at 10:00, not required but very helpful</li>
             <li>Do the prep work & submit your questions ahead of time.</li>
+            <li>You won't cover only enough to <strong>begin</strong> the homework.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Pair Programming</h2>
+          <br>
+          <ul>
+            <li>Each Sunday's class will be a pair-programming workshop</li>
+            <li>You will complete exercises in pairs before break,</li>
+            <li>And a small project after break</li>
+            <li>Coaches are there to answer questions, you need to ask them!</li>
           </ul>
         </section>
         <section>
           <h2>Class Home Page</h2>
-          <code>github.com/hackyourfuturebelgium/class-X/wiki</code>
+          <br>
+          <code>https://hackyourfuture.be/class-X</code>
+          <br><br>
           <p>
             Bookmark this!
             <br>
@@ -161,6 +182,7 @@
           <p>You will only survive with a little help from your friends ...</p>
           <div>... and friend live on Slack :)</div>
         </section>
+        <!-- being ok with not understanding is a thing to learn and practice -->
         <section>
           <h3>Getting Stuck:</h3>
           <ul>
@@ -269,9 +291,9 @@
 
       <section id="learning-objectives">
         <section>
-          <h2>Learning Objectives</h2>
+          <h2>This Week's Topics</h2>
           <p>
-            What can you expect to cover in class today?
+            What should you be able to do after this week?
           </p>
           <br>
           <code>(~5 min)</code>
@@ -285,18 +307,18 @@
             <li>Committing local changes</li>
           </ul>
         </section>
-        <section>
-          <!-- Do you know why we use git? -->
-          <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e10636709fa5e09a8dcd0aa"
-            style='height:90vh;width:85vw;' frameborder="0"></iframe>
-        </section>
+        <!-- <section> -->
+        <!-- Do you know why we use git? -->
+        <!-- <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e10636709fa5e09a8dcd0aa" -->
+        <!-- style='height:90vh;width:85vw;' frameborder="0"></iframe> -->
+        <!-- </section> -->
         <section>
           <h2>Visual Studio Code</h2>
           <ul>
             <li>Opening a directory in the side-bar</li>
             <li>Editing, creating and deleting files</li>
             <li>Installing, configuring and using plugins</li>
-            <li>Previewing Markdown files</li>
+            <li>Preview Markdown files with the extension</li>
             <li>Applying changes suggested by a linter</li>
           </ul>
         </section>
@@ -314,7 +336,7 @@
         <section>
           <h2>Homework Submission Process</h2>
           <ul>
-            <li>Finding your way around HYF</li>
+            <li>Finding your way around HYF GitHub</li>
             <li>Creating Issues in the class repo</li>
             <li>Adding issues to a project board</li>
             <li>Moving issues along a project board</li>
@@ -326,19 +348,20 @@
       <section id='software-check'>
         <section>
           <h2>Software Check</h2>
-          <p>Make sure all of your computers have all of their software.</p>
+          <p>Make sure you all have the right softwares installed:</p>
           <!-- This link is broken, and didn't exist on github, there is only assignemnt.json but not .md -->
-          <p>Find the required softwares <a
-              href="https://github.com/HackYourFutureBelgium/working-with-code/blob/master/week-1/README.md#software-installations"
-              target="_blank">in <code>assignments.md</code></a></p>
+          <br>
+          <a href="https://github.com/HackYourFutureBelgium/working-with-code/blob/master/week-1/README.md#software-installations"
+            target="_blank"><code>assignments.md</code></a>
+          <br>
           <br>
           <code>(~20 min)</code>
         </section>
-        <section>
-          <!-- list of softawre -->
-          <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e106dc791404b14c5f40d5b"
-            style='height:90vh;width:85vw;' frameborder="0"></iframe>
-        </section>
+        <!-- <section> -->
+        <!-- list of softawre -->
+        <!-- <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e106dc791404b14c5f40d5b" -->
+        <!-- style='height:90vh;width:85vw;' frameborder="0"></iframe> -->
+        <!-- </section> -->
       </section>
 
       <section id='hyf-directory'>
@@ -351,6 +374,7 @@
         </section>
         <section>
           <h2>Create & Open</h2>
+          <br>
           <ol>
             <li>Create a new directory called <code>HYF</code> in Documents</li>
             <li>Open the empty directory in VSC</li>
@@ -358,39 +382,28 @@
         </section>
         <section>
           <h2>Follow The Instructions</h2>
-          <!-- This link is broken -->
-          <a href="https://github.com/HackYourFutureBelgium/working-with-code/blob/master/week-1/README.md#hyf-directory"
+          <br>
+          <a href="https://github.com/HackYourFutureBelgium/working-with-code/tree/master/week-1#hyf-directory"
             target="_blank">in <code>assignments.md</code></a>
-          <p>to fill out the rest of the directory</p>
         </section>
-        <section>
+        <!-- <section>
           <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e106ebd28225927a9a3f13f"
             style='height:90vh;width:85vw;' frameborder="0"></iframe>
-        </section>
+        </section> -->
       </section>
 
       <section id='markdown'>
 
         <section>
           <h2>Markdown!</h2>
+          <br>
           <code>an incomplete, but adequate introduction:</code>
           <br>
-          <p>It is the only programming language you need for this week's assignments.</p>
+          <p>The only programming language for this week's assignments.</p>
           <br>
           <code>(~15 min)</code>
         </section>
         <section id='toc'>
-          <ul>
-            <li><a href='#starter'>starter example</a></li>
-            <li><a href='#text'>writing text</a></li>
-            <li><a href='#emphasis'>emphasizing words</a></li>
-            <li><a href='#links'>hyper links</a></li>
-            <li><a href='#uls'>unordered lists</a></li>
-            <li><a href='#ols'>ordered lists</a></li>
-            <li><a href='#code-samples'>code samples</a></li>
-          </ul>
-          <br>
-          <br>
           <h4>
             <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf" target="blank">
               Markdown Cheat Sheet (PDF)
@@ -401,75 +414,80 @@
         <section id='starter'>
           <script>
             codeAlong({
+              title: 'Basics',
               type: 'markdown',
-              path: `./examples/starter.md`,
               container: document.getElementById('starter'),
+              source: [
+                {
+                  name: 'A bit of everything',
+                  path: '../markdown-examples/starter.md'
+                },
+                {
+                  name: 'Headers',
+                  path: '../markdown-examples/headers.md'
+                },
+                {
+                  name: 'Text',
+                  path: '../markdown-examples/text.md'
+                },
+                {
+                  name: 'Emphasis',
+                  path: '../markdown-examples/emphasis.md'
+                },
+              ]
             });
           </script>
         </section>
-
-        <section id='text'>
+        <section id='fancier'>
           <script>
             codeAlong({
+              title: 'Fancier Things',
               type: 'markdown',
-              container: document.getElementById('text'),
-              path: `./examples/text.md`
+              container: document.getElementById('fancier'),
+              source: [
+                {
+                  name: 'Links',
+                  path: '../markdown-examples/links.md'
+                },
+                {
+                  name: 'Code Blocks',
+                  path: '../markdown-examples/code-blocks.md'
+                },
+                {
+                  name: 'Tables',
+                  path: '../markdown-examples/tables.md'
+                },
+              ]
             });
           </script>
         </section>
-
-        <section id='emphasis'>
+        <section id='lists'>
           <script>
             codeAlong({
+              title: 'Lists',
               type: 'markdown',
-              container: 'emphasis',
-              path: `./examples/emphasis.md`
+              container: document.getElementById('lists'),
+              source: [
+                {
+                  name: 'Unordered',
+                  path: '../markdown-examples/lists/unordered-lists.md'
+                },
+                {
+                  name: 'Ordered',
+                  path: '../markdown-examples/lists/ordered-lists.md'
+                },
+                {
+                  name: 'Nested',
+                  path: '../markdown-examples/lists/nested-lists.md'
+                },
+                {
+                  name: 'Task List',
+                  path: '../markdown-examples/lists/task-list.md'
+                },
+              ]
             });
           </script>
         </section>
-
-
-        <section id='links'>
-          <script>
-            codeAlong({
-              type: 'markdown',
-              container: 'links',
-              path: `./examples/links.md`
-            });
-          </script>
-        </section>
-
-        <section id='uls'>
-          <script>
-            codeAlong({
-              type: 'markdown',
-              container: 'uls',
-              path: `./examples/unordered-lists.md`
-            });
-          </script>
-        </section>
-
-        <section id='ols'>
-          <script>
-            codeAlong({
-              type: 'markdown',
-              container: 'ols',
-              path: `./examples/ordered-lists.md`
-            });
-          </script>
-        </section>
-
-
-        <section id='code-samples'>
-          <script>
-            codeAlong({
-              type: 'markdown',
-              container: 'code-samples',
-              path: `./examples/code-samples.md`
-            });
-          </script>
-        </section>
-
 
       </section>
 
@@ -499,46 +517,11 @@
           <img style="height:40%;width:40%;"
             src="https://www.gitkraken.com/downloads/brand-assets/gitkraken-logo-dark-sq.png" alt="gitkraken logo" />
         </section>
-        <section>
-          <h3>GitHub Accounts</h3>
-          <br>
-          <br>
-          <code>(Does everyone have one already?)</code>
-        </section>
-        <section>
-          <!-- write your github username -->
-          <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e106f5ecec47c279f64c9a1"
-            style='height:90vh;width:85vw;' frameborder="0"></iframe>
-        </section>
-        <section>
-          <h2>Practice Time!</h2>
-          <code>(in small groups)</code>
-          <br><br>
-          <ol>
-            <li><a
-                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/new-repository-and-github-pages.md"
-                target="_blank">
-                Create a repo and turn on GitHub Pages
-              </a></li>
-            <li><a
-                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/forking-a-repository.md"
-                target="_blank">
-                Fork a repository
-              </a></li>
-            <li><a
-                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/pull-request-and-merge.md"
-                target="_blank">
-                Pull Requests & Merging
-              </a></li>
-            <li><a
-                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/pull-add-new-file-push.md"
-                target="_blank">
-                Pull, add a file, commit, push
-              </a></li>
-          </ol>
-          <br>
-          <p><a href="https://study.hackyourfuture.be/git-and-github" target="_blank">helpful links</a></p>
-        </section>
+        <!-- <section> -->
+        <!-- write your github username -->
+        <!-- <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e106f5ecec47c279f64c9a1" -->
+        <!-- style='height:90vh;width:85vw;' frameborder="0"></iframe> -->
+        <!-- </section> -->
         <!-- extra: Take a google sheet, give them 5 minutes to work on the same doc
                                               They have to add their name & country
                                               After that they have to put any teammate name in a colour
@@ -549,7 +532,20 @@
               it's about managing & hosting their own work
               collaboration will come later -->
       </section>
-
+      <section>
+        <h2>Practice Time!</h2>
+        <code>(in pairs)</code>
+        <br><br>
+        <p>Set up your
+          <a href="https://github.com/HackYourFutureBelgium/working-with-code/tree/master/week-1#hack-my-future"
+            target="_blank">
+            `hack-my-future`
+          </a>
+          repo
+        </p>
+        <br>
+        <p><a href="https://study.hackyourfuture.be/git-and-github" target="_blank">helpful links</a></p>
+      </section>
       <section id='homework-launch'>
         <section>
           <h2>Homework Launch</h2>
@@ -617,13 +613,17 @@
     </div>
   </div>
 
-  <script src="../reveal.js/js/reveal.js"></script>
+  <script src="../dependencies/reveal.js/js/reveal.js"></script>
 
   <script>
     // More info about config & dependencies:
     // - https://github.com/hakimel/reveal.js#configuration
     // - https://github.com/hakimel/reveal.js#dependencies
     Reveal.initialize({
+      controlsTutorial: true,
+      slideNumber: 'h/t',
+      hash: true,
+      help: true,
       width: "100%",
       height: "100%",
       keyboard: {
@@ -631,7 +631,7 @@
       dependencies: [
         // { src: 'plugin/markdown/marked.js' },
         // { src: 'plugin/markdown/markdown.js' },
-        // { src: './reveal.js/plugin/notes/notes.js', async: true },
+        { src: '../dependencies/reveal.js/plugin/notes/notes.js', async: true },
         // { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
         // { src: 'plugin/highlight/highlight.js', async: true }
       ]
@@ -639,9 +639,11 @@
 
     Reveal.addEventListener('overviewshown', function (event) {
       document.getElementById('footer-text').innerHTML = "ESC into slide";
+      document.getElementById('footer-links').style.visibility = 'visible';
     });
     Reveal.addEventListener('overviewhidden', function (event) {
       document.getElementById('footer-text').innerHTML = "ESC to overview";
+      document.getElementById('footer-links').style.visibility = 'hidden';
     });
 
 

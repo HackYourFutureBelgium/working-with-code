@@ -1,5 +1,11 @@
 # Week 1
 
+* [Prep Work](#prep-work)
+* [Lesson Plan](#lesson-plan)
+* [Assignments](#assignments)
+
+---
+
 ## Prep Work
 
 Materials to read, review, and practice before coming into class/
@@ -18,14 +24,14 @@ Materials to read, review, and practice before coming into class/
 
 ## Assignments
 
-Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you'll start learning to:
+Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you will ...
 
 * Organize your computer so your work doesn't get lost in random folders
 * Practice the homework submission process
 * Get acquainted with Git, GitHub and GitKraken
 * Send your first pull request to an open source project
 * Practice writing code on VSC with linting, auto-formatting & live preview.
-* Become aware of when you changed what, with a little help from GitLens
+* Learn to push & pull your code between your computer and GitHub
 
 There are 5 assignments, 2 on your computer and 3 on GitHub:
 
@@ -34,7 +40,6 @@ There are 5 assignments, 2 on your computer and 3 on GitHub:
 1. [(GitHub) Pull Request to "student-bios"](#student-bios-pull-request)
 1. [(GitHub) Set Up Your hack-my-future Repo](#hack-my-future)
 1. [(GitHub) Push Your Markdown Home Page](#markdown-home-page)
-
 
 To Help you get a hang of the homework submission process and to make sure you get everything done, we've provided a template issue in your class repository.  If you haven't already head over there, create a new issue from the template, and add it to your class' `Working with Code` project board.
 
@@ -97,7 +102,7 @@ Send a Pull Request to your class repository with a short bio so your classmates
 1. [Pin](https://github.blog/2016-06-16-pin-repositories-to-your-github-profile/) it to your GitHub account
 1. Set up your `learnables` project board, as described in the [hack-my-future repository](https://github.com/HackYourFutureBelgium/hack-my-future)
 1. [Clone the repository](https://support.gitkraken.com/working-with-repositories/open-clone-init/) into your `HYF` directory (with GitKraken)
-1. Begin tracking your learning!
+1. Begin organizing your learning!
 
 
 [TOP](#working-with-code--week-1-homework)
