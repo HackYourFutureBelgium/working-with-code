@@ -77,7 +77,7 @@ Set up a new directory *on your computer* to host all of the code you write whil
     |-/ hack-my-future
     |   (see the hack-my-future assignment for more info on this folder)
     |-/ 00-working-with-code
-    |-/ 01-incremental-developemnt
+    |-/ 01-incremental-development
     :
     :
 ```
