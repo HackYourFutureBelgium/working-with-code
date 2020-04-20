@@ -39,6 +39,7 @@ Some resources to help you get oriented in the first weeks:
 
 ### Learning Objectives
 
+
 __How To HYF__:
 
 * Master using your class wiki to ...

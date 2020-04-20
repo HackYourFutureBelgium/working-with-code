@@ -10,9 +10,9 @@
 
 Materials to read, review, and practice before coming into class/
 
-1. Watch at least the first 3 videos of [Git & GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).  This is an outstanding video series that will help you understand why you need Git & GitHub, with no coding yet!
-2. Read through [the HYF Be Precourse](https://github.com/hackyourfuturebelgium/precourse) if you haven't already.
+1. Watch at least the first 3 videos of [Git & GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).  This is an outstanding video series that will help you understand why you need Git & GitHub, with no code!
 3. Familiarize yourself with the [Homework Submission Process](http://github.com/hackyourfuturebelgium/homework-submission) here at HYF.
+2. Look through [the HYF Be Precourse](https://github.com/hackyourfuturebelgium/precourse).
 
 ---
 
@@ -24,19 +24,11 @@ Materials to read, review, and practice before coming into class/
 
 ## Assignments
 
-Your homework this week is all about getting ready for a successful time at HYF.  Without drowning in code you will ...
-
-* Organize your computer so your work doesn't get lost in random folders
-* Practice the homework submission process
-* Get acquainted with Git, GitHub and GitKraken
-* Send your first pull request to an open source project
-* Practice writing code on VSC with linting, auto-formatting & live preview.
-* Learn to push & pull your code between your computer and GitHub
-
-There are 5 assignments, 2 on your computer and 3 on GitHub:
+There are 6 assignments, 2 on your computer and 4 on GitHub:
 
 1. [(computer) Software Installations](#software-installations)
 1. [(computer) Start an HYF Directory](#hyf-directory)
+1. [(GitHub) _Learnables_ Project Board](#learnables-project-board)
 1. [(GitHub) Pull Request to "student-bios"](#student-bios-pull-request)
 1. [(GitHub) Set Up Your hack-my-future Repo](#hack-my-future)
 1. [(GitHub) Push Your Markdown Home Page](#markdown-home-page)
@@ -63,7 +55,7 @@ Make sure you have all of these softwares installed on your computer:
 
 > If you have a Windows machine, it's recommended that you set up your computer for dual booting Linux.  Windows will work fine at the beginning of the course, but later on will make things more difficult for you. Get in touch with one of your coaches if you'd like to get this set up already.
 
-[TOP](#working-with-code--week-1-homework)
+[TOP](#week-1)
 
 ---
 
@@ -82,17 +74,26 @@ Set up a new directory *on your computer* to host all of the code you write whil
     :
 ```
 
-
-[TOP](#working-with-code--week-1-homework)
+[TOP](#week-1)
 
 ---
+
+### _Learnables_ Project Board
+
+Create a [user-owned project board](https://help.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-a-user-owned-project-board) called __learnables__ for you to keep track of your progress at HYF.  Here's a suggestion for what columns to use:
+
+1. __Unclear__: things you want to learn at some point, but don't yet have much understanding of
+1. __Basic Understanding__: Things you already kind of understand but aren't comfortable doing
+1. __Currently Studying__: The things you are actively learning and practicing. There should never be more than ~5-6 cards in this column, if there are you should take some time to refocus your learning
+1. __Comfortable__: You are comfortable using these skills/tools in your own projects & exercises, but maybe don't understand them completely
+1. __Confident__: You know these things well enough that you'd be able to help the next group of HYF students with their homework
+
 
 ### student-bios Pull Request
 
 Send a Pull Request to your class repository with a short bio so your classmates and coaches can get to know you.  You can find more instructions for this in the `/student-bios` directory of your class repo.
 
-
-[TOP](#working-with-code--week-1-homework)
+[TOP](#week-1)
 
 ---
 
@@ -105,7 +106,7 @@ Send a Pull Request to your class repository with a short bio so your classmates
 1. Begin organizing your learning!
 
 
-[TOP](#working-with-code--week-1-homework)
+[TOP](#week-1)
 
 ---
 
@@ -140,7 +141,7 @@ After turning on GitHub pages, add this link as your home page on your github us
 
 Looking for a little more flare?  Set [a theme](https://pages.github.com/themes/) for your home page.
 
-[TOP](#working-with-code--week-1-homework)
+[TOP](#week-1)
 
 ---
 ---
