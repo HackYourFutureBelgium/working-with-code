@@ -24,14 +24,20 @@ Materials to read, review, and practice before coming into class/
 
 ## Assignments
 
+Not all assignments are created equal.  These 3 emoji's will help you figure out how to spend your study time before HYF as effectively as possible.
+* :egg: ```:egg:``` - these assignments are required, they cover the base skills you'll need to move on.
+* :hatching_chick: ```:hatching_chick:``` - do your best to start these exercises. you don't need to finish or master them but getting the main idea will prepare you for success
+* :hatched_chick: ```:hatched_chick:``` - Have you finished all the :egg:'s and :hatching_chick:'s? push yourself with these challenges!
+
+
 There are 6 assignments, 2 on your computer and 4 on GitHub:
 
-1. [(computer) Software Installations](#software-installations)
-1. [(computer) Start an HYF Directory](#hyf-directory)
-1. [(GitHub) _Learnables_ Project Board](#learnables-project-board)
-1. [(GitHub) Pull Request to "student-bios"](#student-bios-pull-request)
-1. [(GitHub) Set Up Your hack-my-future Repo](#hack-my-future)
-1. [(GitHub) Push Your Markdown Home Page](#markdown-home-page)
+1. :egg: [(computer) Software Installations](#software-installations)
+1. :egg: [(computer) Start an HYF Directory](#hyf-directory)
+1. :egg: [(GitHub) _Learnables_ Project Board](#learnables-project-board)
+1. :egg: [(GitHub) Pull Request to "student-bios"](#student-bios-pull-request)
+1. :egg: [(GitHub) Set Up Your hack-my-future Repo](#hack-my-future)
+1. :egg: [(GitHub) Push Your Markdown Home Page](#markdown-home-page)
 
 To Help you get a hang of the homework submission process and to make sure you get everything done, we've provided a template issue in your class repository.  If you haven't already head over there, create a new issue from the template, and add it to your class' `Working with Code` project board.
 
