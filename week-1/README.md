@@ -24,11 +24,6 @@ Materials to read, review, and practice before coming into class/
 
 ## Assignments
 
-Not all assignments are created equal.  These 3 emoji's will help you figure out how to spend your study time before HYF as effectively as possible.
-* :egg: ```:egg:``` - these assignments are required, they cover the base skills you'll need to move on.
-* :hatching_chick: ```:hatching_chick:``` - do your best to start these exercises. you don't need to finish or master them but getting the main idea will prepare you for success
-* :hatched_chick: ```:hatched_chick:``` - Have you finished all the :egg:'s and :hatching_chick:'s? push yourself with these challenges!
-
 
 There are 6 assignments, 2 on your computer and 4 on GitHub:
 
