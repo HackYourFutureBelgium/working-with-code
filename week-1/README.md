@@ -11,7 +11,7 @@
 Materials to read, review, and practice before coming into class/
 
 - [ ] Watch at least the first 3 videos of [Git & GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV). This is an outstanding video series that will help you understand why you need Git & GitHub, with no code!
-- [ ] Familiarize yourself with the [Homework Submission Process](http://github.com/hackyourfuturebelgium/homework-submission) here at HYF.
+- [ ] Familiarize yourself with the [Homework Submission Process](https://home.hackyourfuture.be/students/homework-submission) here at HYF.
 - [ ] Review [the HYF Be Precourse](https://home.hackyourfuture.be/curriculum/precourse), come ready with any questions!
 
 ---
