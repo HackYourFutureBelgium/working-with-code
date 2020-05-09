@@ -52,8 +52,8 @@ Set up a new directory _on your computer_ to host all of the code you write whil
   |-/ HYF
     |-/ hack-my-future
     |   (see the hack-my-future assignment for more info about what goes here)
-    |-/ 00-working-with-code
-    |-/ 01-incremental-development
+    |-/ 01-working-with-code
+    |-/ 02-incremental-development
     :
     :
 ```
