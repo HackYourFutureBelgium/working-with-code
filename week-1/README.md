@@ -22,16 +22,20 @@ Materials to read, review, and practice before coming into class/
 
 ### Group Project
 
-**Writing like a Dev**
+#### Group Intro Repo
 
-Get a feel for your programming environment by writing and pushing a repository of Markdown files.
+Get a feel for your programming environment by writing and pushing a repository of Markdown files.  By the end of class each of you should have create a new repository containing a short intro to each member of your group, and a live demo hosted with GitHub Pages.  It should look like this, but hopefully a little nicer ;)
+
+- [Example Repo](https://github.com/hackyourfuturebelgium/group-intro-example)
+- [Example Live](https://hackyourfuture.be/group-intro-example)
 
 ---
 
 ## Assignments
 
-There are 6 assignments this week:
+There are 7 assignments this week:
 
+- [ ] :egg: [Group Intro Repo](#group-into-repo)
 - [ ] :egg: [Start an HYF Directory](#hyf-directory)
 - [ ] :egg: [Complete _First Week on GitHub_](#first-week-on-github)
 - [ ] :egg: [Send a Pull Request to "student-bios"](#student-bios-pull-request)
