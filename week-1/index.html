@@ -202,9 +202,20 @@
         </section>
       </section>
 
+
+      <section id='first-intro'>
+        <section>
+          <h2>Say Hi!</h2>
+          <br>
+          <p>Go around the circle and introduce yourselves.</p>
+          <br>
+          <code>(small groups)</code>
+        </section>
+      </section>
+
       <section id='software-check'>
         <section>
-          <h2>Software Check!</h2>
+          <h2>Software Check</h2>
           <br>
           <p>Just what you need for today</p>
           <br>
@@ -213,8 +224,10 @@
         <section>
           <ul>
             <li>Visual Studio Code</li>
-            <li>MarkdownLint</li>
-            <li>Code Spell Checker</li>
+            <li>VSC plugin: MarkdownLint</li>
+            <li>VSC plugin: Code Spell Checker</li>
+            <li>VSC plugin: Prettier</li>
+            <li>VSC plugin: Markdown Preview GitHub Styling</li>
             <li>Git</li>
             <li>GitBash (if you have Windows)</li>
             <li>GitKraken/GitHub Desktop (optional)</li>
@@ -335,37 +348,20 @@
             Each of you will create a new folder on your computer with short bio for each person in your small group. It
             should have ...
           </p>
+          <ol>
+            <li>A <code>LICENSE</code></li>
+            <li>A <code>README.md</code> with a title, intro & list of links </li>
+            <li>One file for each member of your group</li>
+          </ol>
         </section>
         <section>
-          <h3>A <code>LICENSE</code> file</h3>
+          <h3>Helpful Links</h3>
           <br>
-          <a href="https://opensource.org/licenses/MIT" target="_blank">
-            The MIT License is a good one
-          </a>
-        </section>
-        <section>
-          <h3>A main file called <code>README.md</code></h3>
-          <br>
-          <p>This file includes:</p>
-          <ul>
-            <li>Your group name (be creative ;)</li>
-            <li>A nice introduction to your group</li>
-            <li>A list of links to all the other files</li>
-          </ul>
-        </section>
-        <section>
-          <h3>One file per group member</h3>
-          <br>
-          <p>
-            Take turns introducing yourselves!
-          </p>
-          <p>
-            Create a new file for each member of your group called <code>their-name.md</code>.
-            Write a short introduction for them in this file.
-          </p>
-          <p>
-            By the end you should one file for each member in your group
-          </p>
+          <ol>
+            <li><a href="https://opensource.org/licenses/MIT" target="_blank">
+                The MIT License
+              </a></li>
+          </ol>
         </section>
       </section>
 
@@ -375,7 +371,73 @@
         <code>(~20 min)</code>
       </section>
 
+      <section>
+        <section>
+          <h2>Group Intro Repository, Pt. 2</h2>
+          <br>
+          <p>Publishing The Code</p>
+          <br>
+          <code>(group exercise)</code>
+        </section>
+        <section>
+          <h3>What you will make</h3>
+          <br>
+          <p>
+            Each group member will create a new repository on GitHub to host their code.
+          </p>
+          <p>
+            No need to fork or share repositories!
+          </p>
+        </section>
+        <section>
+          <h3>Helpful Links</h3>
+          <br>
+          <ul>
+            <li>
+              <a href="https://rogerdudler.github.io/git-guide/" target="_blank">
+                RogerDudler Git-Guide
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=oK8EvVeVltE&list=PLoynTxuTLXaD8Hz_mLhYicC5BmpBwgSiK&index=5"
+                target="_blank">
+                Git & GitHub for Poets: Intro to the Command Line
+              </a>
 
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=yXT1ElMEkW8" target="_blank">
+                Git & GitHub for Poets: Cloning Repo & Push/Pull
+              </a>
+
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=WfhRyz3Wf4o" target="_blank">
+                Creating a GitHub Repository
+              </a>
+
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=vbQ2bYHxxEA" target="_blank">
+                Creating a local repo and push
+              </a>
+
+            </li>
+            <li>
+              <a href="https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site"
+                target="_blank">
+                Creating a GitHub Pages site
+              </a>
+
+            </li>
+            <li>
+              <a href="https://lab.github.com/githubtraining/uploading-your-project-to-github" target="_blank">
+                Uploading your project to GitHub
+              </a></li>
+          </ul>
+        </section>
+      </section>
+      <!--
       <section id='git-github-gitkraken'>
         <section>
           <h2>Git, GitHub, Git GUIs</h2>
@@ -399,12 +461,12 @@
           <img style="height:40%;width:40%;"
             src="https://www.gitkraken.com/downloads/brand-assets/gitkraken-logo-dark-sq.png" alt="gitkraken logo" />
         </section>
-        <!-- <section> -->
-        <!-- write your github username -->
-        <!-- <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e106f5ecec47c279f64c9a1" -->
-        <!-- style='height:90vh;width:85vw;' frameborder="0"></iframe> -->
-        <!-- </section> -->
-        <!-- extra: Take a google sheet, give them 5 minutes to work on the same doc
+ <section> -->
+      <!-- write your github username -->
+      <!-- <iframe src="https://app.wooclap.com/events/NPCUOF/questions/5e106f5ecec47c279f64c9a1" -->
+      <!-- style='height:90vh;width:85vw;' frameborder="0"></iframe> -->
+      <!-- </section> -->
+      <!-- extra: Take a google sheet, give them 5 minutes to work on the same doc
                                                                   They have to add their name & country
                                                                   After that they have to put any teammate name in a colour
                                                                   And add a nickname to another one
@@ -413,62 +475,8 @@
                                   at this point git is not about collaboration
                                   it's about managing & hosting their own work
                                   collaboration will come later -->
-      </section>
-
-      <section>
-        <section>
-          <h2>Group Intro Repository, Pt. 2</h2>
-          <br>
-          <p>Publishing The Code</p>
-          <br>
-          <code>(group exercise)</code>
-        </section>
-        <section>
-          <h3>What you will make</h3>
-          <br>
-          <ul>
-            <li>A new repository on your GitHub account with your Group Intro</li>
-            <li>A live website hosted at: <br> <code>https://your-user-name.github.io/group-intro</code></li>
-          </ul>
-        </section>
-        <section>
-          <h3>Helpful Hints</h3>
-          <br>
-          <ul>
-            <li>Name your repository <code>group-intro</code> so everyone can find it</li>
-            <li>Create your GitHub repository <strong>without</strong> a README</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Helpful Links</h3>
-          <br>
-          <ul>
-            <a href="https://rogerdudler.github.io/git-guide/" target="_blank">
-              RogerDudler Git-Guide
-            </a>
-            <a href="https://www.youtube.com/watch?v=oK8EvVeVltE&list=PLoynTxuTLXaD8Hz_mLhYicC5BmpBwgSiK&index=5"
-              target="_blank">
-              Git & GitHub for Poets: Intro to the Command Line
-            </a>
-            <a href="https://www.youtube.com/watch?v=yXT1ElMEkW8" target="_blank">
-              Git & GitHub for Poets: Cloning Repo & Push/Pull
-            </a>
-            <a href="https://www.youtube.com/watch?v=WfhRyz3Wf4o" target="_blank">
-              Creating a GitHub Repository
-            </a>
-            <a href="https://www.youtube.com/watch?v=vbQ2bYHxxEA" target="_blank">
-              Creating a local repo and push
-            </a>
-            <a href="https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site"
-              target="_blank">
-              Creating a GitHub Pages site
-            </a>
-            <a href="https://lab.github.com/githubtraining/uploading-your-project-to-github" target="_blank">
-              Uploading your project to GitHub
-            </a>
-          </ul>
-        </section>
-      </section>
+      <!--
+      </section> -->
 
       <section>
         <section>
