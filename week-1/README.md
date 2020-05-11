@@ -45,6 +45,12 @@ There are 7 assignments this week:
 
 To Help you get a hang of the homework submission process and to make sure you get everything done, we've provided a template issue in your class repository. If you haven't already head over there, create a new issue from the template, and add it to your class' `Working with Code` project board.
 
+### Suggested Study
+
+- [Creating a GitHub Pages Website](https://www.youtube.com/watch?v=BA_c3bGQXlQ)
+- [learngitbranching](http://learngitbranching.js.org/)
+- [Git & GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
+
 ---
 
 ### HYF Directory
