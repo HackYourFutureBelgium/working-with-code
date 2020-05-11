@@ -9,3 +9,7 @@ Screen recordings of class.  Coaches, when sending your PR's with links please m
 * and a helpful description
 
 ---
+# Week 1
+
+- Wrap-up Session: [Review](https://vimeo.com/417167943) - by [Evan](https://github.com/colevandersWands/)
+
