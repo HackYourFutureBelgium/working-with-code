@@ -62,19 +62,20 @@ This module's main objective is to get you comfortable with the workflows of pro
 
 ## Suggested Study
 
+- [study.hackyourfuture.be/git-and-github](https://study.hackyourfuture.be/git-and-github)
 - [Creating a GitHub Pages Website](https://www.youtube.com/watch?v=BA_c3bGQXlQ)
 - [learngitbranching](http://learngitbranching.js.org/)
 - [Git & GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 - [First Week on GitHub](https://lab.github.com/githubtraining/paths/first-week-on-github) tutorial from lab.github.com
 - [Getting Started with GitHub](https://help.github.com/en/github/getting-started-with-github)
-- *   [RogerDudler Git-Guide](https://rogerdudler.github.io/git-guide/)
-*   [Git & GitHub for Poets: Intro to the Command Line](https://www.youtube.com/watch?v=oK8EvVeVltE&list=PLoynTxuTLXaD8Hz_mLhYicC5BmpBwgSiK&index=5)
-*   [Git & GitHub for Poets: Cloning Repo & Push/Pull](https://www.youtube.com/watch?v=yXT1ElMEkW8)
-*   [Creating a GitHub Repository](https://www.youtube.com/watch?v=WfhRyz3Wf4o)
-*   [Creating a local repo and push](https://www.youtube.com/watch?v=vbQ2bYHxxEA)
-*   [Creating a GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
-*   [Uploading your project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)
-*   GitKraken: [initialize a new project](https://support.gitkraken.com/working-with-repositories/open-clone-init/) , [add remote & push](https://support.gitkraken.com/working-with-repositories/pushing-and-pulling/)
+- [RogerDudler Git-Guide](https://rogerdudler.github.io/git-guide/)
+- [Git & GitHub for Poets: Intro to the Command Line](https://www.youtube.com/watch?v=oK8EvVeVltE&list=PLoynTxuTLXaD8Hz_mLhYicC5BmpBwgSiK&index=5)
+- [Git & GitHub for Poets: Cloning Repo & Push/Pull](https://www.youtube.com/watch?v=yXT1ElMEkW8)
+- [Creating a GitHub Repository](https://www.youtube.com/watch?v=WfhRyz3Wf4o)
+- [Creating a local repo and push](https://www.youtube.com/watch?v=vbQ2bYHxxEA)
+- [Creating a GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
+- [Uploading your project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)
+- GitKraken: [initialize a new project](https://support.gitkraken.com/working-with-repositories/open-clone-init/) , [add remote & push](https://support.gitkraken.com/working-with-repositories/pushing-and-pulling/)
 
 
 [TOP](#working-with-code)
