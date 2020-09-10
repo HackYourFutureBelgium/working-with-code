@@ -204,5 +204,11 @@ Screen recordings of class.  Coaches, when sending your PR's with links please .
 
 - Wrap-up Session: [Review](https://vimeo.com/417167943)
 
+---
+
+## [Class 11 & 12](https://hackyourfuture.be/class-11-12)
+
+> Tamer, Tiago, Marie, Unmesh, Nawang
+
 
 [TOP](#working-with-code)
