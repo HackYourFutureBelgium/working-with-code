@@ -20,8 +20,8 @@ This module's main objective is to get you comfortable with the workflows of pro
   - [Week 1](#week-1)
 - [Homework](#homework)
 - [Class Recordings](#class-recordings)
-- [study.hackyourfuture.be](https://study.hackyourfuture.be) (external)
-- [home.hackyourfuture.be](https://home.hackyourfuture.be/) (external)
+- [study.hackyourfuture.be](https://study.hackyourfuture.be)
+- [home.hackyourfuture.be](https://home.hackyourfuture.be/)
 
 ---
 
@@ -97,6 +97,7 @@ This module's main objective is to get you comfortable with the workflows of pro
   - [LujiAnne](https://github.com/LujiAnna/group-intro)
   - [okozmovskaya](https://github.com/okozmovskaya/group-intro)
   - [sayed94h](https://github.com/sayed94h/Group-Intro-LetItBe)
+- [relative vs. absolute paths](https://www.youtube.com/watch?v=ephId3mYu9o)
 
 ### Lesson Plan
 
@@ -190,16 +191,16 @@ Looking for a little more flare? Set [a theme](https://pages.github.com/themes/)
 
 ## Class Recordings
 
-Recordings of class.  Coaches, when sending your PR's with links please ...
-
-- Indicate which class you were teaching
-- Which week it was (if the module is more than 1 week)
-- Give your name
-- and a helpful description
+- **Students**: Here you can find recordings of this module from past classes.  Enjoy!
+- **Coaches**: When sending your PR's with links please ...
+  - Indicate which class you were teaching
+  - Which week it was (if the module is more than 1 week)
+  - Give your name
+  - and a helpful description
 
 ---
 
-### Class 9 & 10
+### [Class 9 & 10](https://hackyourfuture.be/class-9-10)
 
 - Wrap-up Session: [Review](https://vimeo.com/417167943)
 
