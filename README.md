@@ -168,7 +168,7 @@ The writing process should look something like this:
 1. Open or create the `README.md` file, turn on [Markdown Preview](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
 1. Begin writing. Play around with tables, lists, links, emphasis, ... and there's not really much more to Markdown!
 
-This make this exercise too difficult! The main goal is to become familiar adding/committing, pushing/pulling, using VSC, and writing clean code.
+Don't make this exercise too difficult! The main goal is to become familiar adding/committing, pushing/pulling, using VSC, and writing clean code.
 
 If you want an extra challenge try adding some extra pages to your site and linking between them. In the repository this will show up as multiple files above the README, on GitHub Pages this will become a fully navigable web page!
 
@@ -190,11 +190,10 @@ Looking for a little more flare? Set [a theme](https://pages.github.com/themes/)
 
 ## Class Recordings
 
-Screen recordings of class.  Coaches, when sending your PR's with links please ...
+Recordings of class.  Coaches, when sending your PR's with links please ...
 
-- Add a link to your video in the correct module's section
 - Indicate which class you were teaching
-- Which week it was
+- Which week it was (if the module is more than 1 week)
 - Give your name
 - and a helpful description
 
