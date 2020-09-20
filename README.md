@@ -213,4 +213,6 @@ Looking for a little more flare? Set [a theme](https://pages.github.com/themes/)
 > Tamer, Tiago, Unmesh, Nawang
 
 - [Part 1 - Isolate](https://vimeo.com/459865837)
+- [Part 2 - Integrate]
+
 [TOP](#working-with-code)
