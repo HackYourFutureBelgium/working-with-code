@@ -208,7 +208,11 @@ Looking for a little more flare? Set [a theme](https://pages.github.com/themes/)
 
 ## [Class 11 & 12](https://hackyourfuture.be/class-11-12)
 
-> Tamer, Tiago, Marie, Unmesh, Nawang
+- Intro Session: [Intro HackYourFuture](https://vimeo.com/459862321)
 
+> Tamer, Tiago, Unmesh, Nawang
+
+- [Part 1 - Isolate](https://vimeo.com/459865837)
+- [Part 2 - Integrate](https://vimeo.com/459879647)
 
 [TOP](#working-with-code)
