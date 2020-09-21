@@ -212,7 +212,8 @@ Looking for a little more flare? Set [a theme](https://pages.github.com/themes/)
 
 > Tamer, Tiago, Unmesh, Nawang
 
-- [Part 1 - Isolate](https://vimeo.com/459865837)
-- [Part 2 - Integrate](https://vimeo.com/459879647)
+- [Part 1 - Markdown and VSCode](https://vimeo.com/459865837)
+- [Part 2 - Pushing to GitHub](https://vimeo.com/459879647)
+- [Part 3 - Homework](https://vimeo.com/460084470)
 
 [TOP](#working-with-code)
