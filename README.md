@@ -133,12 +133,14 @@ You may use the Terminal or GitKraken for this, whatever you find easier.
 
 > after class
 
-Before moving on, you will need to create an `individual` issue for this module:
+Before moving on, you will need to [create an `individual` issue](https://www.youtube.com/watch?v=1Ll-5wYxg3A&feature=youtu.be) for this module:
+
+- [step-by-step video](https://www.youtube.com/watch?v=1Ll-5wYxg3A&feature=youtu.be)
 - [New Issue] in the issues tab of your class repo
 - Use the _individual_ template
 - More details in the [student guidebook](https://home.hackyourfuture.be/students/individual-assignments#individual-issues)
 
-Here's a checklist you can paste into your issue to track your progress:
+Here's a checklist you can paste into your [`individual` issue](https://www.youtube.com/watch?v=1Ll-5wYxg3A&feature=youtu.be) to track your progress:
 
 ```markdown
 - [ ] [Profile README](https://github.com/your-user-name)
