@@ -18,6 +18,7 @@ This module's main objective is to get you comfortable with the workflows of pro
 - [Suggested Study](#suggested-study)
 - Sundays
   - [Week 1](#week-1)
+  - [Week 2](#week-2)
 - [Homework](#homework)
 - [Class Recordings](#class-recordings)
 - [study.hackyourfuture.be](https://study.hackyourfuture.be)
@@ -26,6 +27,11 @@ This module's main objective is to get you comfortable with the workflows of pro
 ---
 
 ## Learning Objectives
+
+What you can expect to learn in this module
+
+<details>
+<summary>expand/collapse</summary>
 
 **Your Computer**:
 
@@ -43,11 +49,13 @@ This module's main objective is to get you comfortable with the workflows of pro
 - Turning on GitHub Pages for live websites
 - Using Project Boards to track projects
 - Using Issues to start a conversation about a specific ... issue
+- Using Pull Requests to review code and merge branches
 
 **Git**:
 
 - Using Git to add and commit changes locally on your computer
 - Using Git to pull and push changes between your computer and GitHub
+- Using branches to organize your work
 
 **Visual Studio Code**:
 
@@ -56,11 +64,18 @@ This module's main objective is to get you comfortable with the workflows of pro
 - Adding, deleting and modifying files in a project folder
 - Using a linter & live preview
 
+</details>
+
 [TOP](#working-with-code)
 
 ---
 
 ## Suggested Study
+
+helpful resources for this module
+
+<details>
+<summary>expand/collapse</summary>
 
 - [study.hackyourfuture.be/git-and-github](https://study.hackyourfuture.be/git-and-github)
 - [Creating a GitHub Pages Website](https://www.youtube.com/watch?v=BA_c3bGQXlQ)
@@ -75,8 +90,12 @@ This module's main objective is to get you comfortable with the workflows of pro
 - [Creating a local repo and push](https://www.youtube.com/watch?v=vbQ2bYHxxEA)
 - [Creating a GitHub Pages site](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
 - [Uploading your project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)
-- GitKraken: [initialize a new project](https://support.gitkraken.com/working-with-repositories/open-clone-init/) , [add remote & push](https://support.gitkraken.com/working-with-repositories/pushing-and-pulling/)
+- Wireframes
+  - [What are these things?](https://www.youtube.com/results?search_query=what+are+wireframes)
+  - [Why are these so great?](https://medium.com/@ray_vevaina/wireframing-a-front-end-developers-best-friend-c541df51ea65)
+  - [wireframe.cc - online wireframes](https://wireframe.cc/)
 
+</details>
 
 [TOP](#working-with-code)
 
@@ -84,9 +103,14 @@ This module's main objective is to get you comfortable with the workflows of pro
 
 ## Week 1
 
-### Prep work
+Learn to `add` and `commit` local changes, then `push` and `pull` from GitHub.
 
-> before class
+Master HYF workflows including `individual` issues and Wednesday Check-Ins.
+
+<details>
+<summary>expand/collapse</summary>
+
+### Before Class
 
 - Review [the HYF Be Precourse](https://home.hackyourfuture.be/curriculum/precourse), come ready with any questions!
 - Watch at least the first 3 videos of [Git & GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV). This is an outstanding video series that will help you understand why you need Git & GitHub, with no code!
@@ -99,9 +123,8 @@ This module's main objective is to get you comfortable with the workflows of pro
   - [sayed94h](https://github.com/sayed94h/Group-Intro-LetItBe)
 - [relative vs. absolute paths](https://www.youtube.com/watch?v=ephId3mYu9o)
 
-### Lesson Plan
+### During Class
 
-> during class
 
 #### Before Break
 
@@ -125,13 +148,7 @@ Create a repository on your GitHub account and push your new markdown folder to 
 
 You may use the Terminal or GitKraken for this, whatever you find easier.
 
-[TOP](#working-with-code)
-
----
-
-## Homework
-
-> after class
+__Create `individual Issue__
 
 Before moving on, you will need to [create an `individual` issue](https://www.youtube.com/watch?v=1Ll-5wYxg3A&feature=youtu.be) for this module:
 
@@ -140,52 +157,118 @@ Before moving on, you will need to [create an `individual` issue](https://www.yo
 - Use the _individual_ template
 - More details in the [student guidebook](https://home.hackyourfuture.be/students/individual-assignments#individual-issues)
 
+
+[TOP](#working-with-code)
+
+---
+
+## After Class
+
+Rebuild your home page (`username.github.io`) using HTML & CSS.  Anything goes, impress yourself!
+
 Here's a checklist you can paste into your [`individual` issue](https://www.youtube.com/watch?v=1Ll-5wYxg3A&feature=youtu.be) to track your progress:
 
 ```markdown
-- [ ] [Profile README](https://github.com/your-user-name)
-- [ ] [Home Page](https://your-user-name.github.io)
-- [ ] `/hack-my-future` directory on your computer (for keeping your work organized)
+- [ ] [Repository](https://github.com/your-user-name/your-user-name.github.io)
+- [ ] [Live Demo](https://your-user-name.github.io)
+- [ ] [Complete README](https://github.com/your-user-name)
+- [ ] _NO_ CSS in your HTML file
 ```
 
-### GitHub Profile README
+</details>
 
-Create a GitHub Profile README for your public profile:
+[TOP](#working-with-code)
 
-- [How to Make One](https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme)
-- [Adding real-time stats](https://github.com/anuraghazra/github-readme-stats)
-- [Inspiration](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+---
 
-### Personal Home Page
 
-Create a home page using markdown (or HTML/CSS if you're tempted ;) in the `your-user-name.github.io` repository on your GitHub account. Later on you can turn this repository into an amazing portfolio web site, but for now stick with the basics :)
+## Week 2
 
-**Writing The Documents**
+Learn a basic branching workflow:
 
-The writing process should look something like this:
+1. set up your repository and clone it
+2. for each file in your group repository
+   1. create a new branch locally
+   2. write your new code on that branch
+   3. push the branch to your repository
+   4. create a PR & merge the branch to `master`
+   5. pull the new `master` branch to your computer
+   6. continue to the next step
 
-1. Create a [new repository on your github account named `your-user-name.github.io`](https://guides.github.com/features/pages) (with or without a `README.md`)
-1. [Turn on GitHub Pages](https://guides.github.com/features/pages)
-1. Clone the repository to your computer (using CLI or GitKraken)
-1. Open the repository in VSC
-1. Open or create the `README.md` file, turn on [Markdown Preview](https://marketplace.visualstudio.com/items?itemName=dmodalek.markdown-preview-github-styles-custom)
-1. Begin writing. Play around with tables, lists, links, emphasis, ... and there's not really much more to Markdown!
+<details>
+<summary>expand/collapse</summary>
 
-Don't make this exercise too difficult! The main goal is to become familiar adding/committing, pushing/pulling, using VSC, and writing clean code.
+### Before Class
 
-If you want an extra challenge try adding some extra pages to your site and linking between them. In the repository this will show up as multiple files above the README, on GitHub Pages this will become a fully navigable web page!
+- Git
+  - [Git & GitHub for Poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV): 1.1, 1.2, 1.3, 1.6 & 1.7
+  - [learngitbranching](https://learngitbranching.js.org):
+    - Main, Introduction Sequence: 1, 2, 3
+    - Remotes, Pull & Push: 1 -> 6
+  - [Understand how to use Atomic Commits](https://curiousprogrammer.io/blog/how-to-craft-your-changes-into-small-atomic-commits-using-git)
 
-Can you figure out how to make something like a header/navbar using only Markdown?
+### During Class
 
-> Emojis and images won't show up in VSC previews but will show up on GitHub when you push. If you want to get extra creative by including images or emoji's, you'll need to push your code to GitHub frequently to see how it looks when it's live in the repo.
+#### Before Break
 
-**Creating Your Live Home Page**
+Build _another_ group intro repository?!  Your main focus this time will be understanding _git branches_ to organize your development
 
-[Turn on GitHub Pages](https://help.github.com/en/github/working-with-github-pages/about-github-pages), that's all you need to do to create a live web page!
+While in your small groups each group member will create _their own_ repository.  You can help each other all you need to, but you will each need to work on a separate project. There is no need to use fork each other's repos.
 
-After turning on GitHub pages, add this link as your home page on your github user profile (if you don't already have a personal web site).
+By break time you should each have:
 
-Looking for a little more flare? Set [a theme](https://pages.github.com/themes/) for your home page. (this will only work if you wrote your page in Markdown, not HTML)
+1. (GitHub) An empty repository
+2. (your computer) A clone of your repository with:
+   1. A development strategy ([a starter file](./development-strategies/1-individual-strategy.md))
+   2. A main readme
+   3. One branch per group member with an introduction file
+
+#### After Break
+
+Time to push and merge!  In this part of class you will practice pushing to GitHub, creating pull requests, and merging branches.  By the end of class each of you should be on your way to having something [like this repository](https://github.com/HackYourFutureBelgium/team-branchies).
+
+No worries if you can't finish all at once.  You'll have the rest of the week to practice and finish ;)
+
+
+[TOP](#working-with-code)
+
+---
+
+## After Class
+
+
+This week's project is **_individual_**. You will study and reverse-engineer the [__acme-web-design__ tutorial from Traversy Media](https://www.youtube.com/watch?v=Wm6CUkswsNw).
+
+Writing the same code as Mr. Traversy's code is not enough! You are expected to submit your code from his tutorial in a new repository on your GitHub account using [this template repository](https://github.com/HackYourFutureBelgium/w3-validation-template) (about [generating with templates](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/)). Your repository should be named `acme-web-design`.
+
+You are expected to write a wireframe to describe your website (see [Suggested Study](#suggested-study)).  You will use this wireframe to break your project into small steps. For example you may develop the header first, then the footer, ...
+
+After creating your wireframe you should cleanly develope your project with one branch per step.  It's up to you to decide what the steps are and in what order to build them.
+
+Your workflow for this project should be the same workflow you practiced in class.  For each step in your project you should develop on a new branch. After completing the code for one step (on one branch) you should push that branch to GitHub and merge to master using a Pull Request.
+
+A good strategy for completing this project is the __three-step__:
+
+1. follow the tutorial studying the code and understanding the project.
+2. look over your finished code and break it down into steps, write your development strategy.
+3. study the tutorial a second time, following your strategy to build your repository one branch at a time
+
+You will be assessed not only on your live demo, but also on the quality of your code, your development strategy, the correctness of your branches, and the completeness of your repository. Your repository must contain:
+
+### Issue Checklist
+
+Copy-paste this checklist into your individual issue in the **Week 1** section:
+
+```md
+- [ ] [repo](https://github.com/_/_)
+- [ ] [complete README](https://github.com/_/_)
+- [ ] link to wireframe in README
+- [ ] [live demo](https://_.github.io/_)
+- [ ] [one branch per step](https://github.com/_/_/network)
+- [ ] [one closed PR per step](https://github.com/_/_/pulls)
+```
+
+</details>
 
 [TOP](#working-with-code)
 
